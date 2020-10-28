@@ -1,0 +1,24 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.hero-section {
+    text-align: center;
+    height: 90vh;
+    background-image: url("../images/whistler.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section h1 {
+    padding-top: 15vh;
+    font-weight: 500;
+    font-size: 400%;
+    color: azure;
+}
+
+.hero-section h2 {
+    color: antiquewhite;
+}
+
+
