@@ -1,27 +1,46 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    
+  font-family: "Montserrat", sans-serif;
 }
 .navbar-brand {
-    letter-spacing: 2px;
-}
-
-.hero-section {
-    text-align: center;
-    height: 90vh;
-    background-image: url("../images/whistler.jpg");
-}
-
-.hero-section h1 {
-    text-align: center;
-    padding-top: 15vh;
-    font-weight: 300;
-    font-size: 200%;
-    color: azure;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 30px;  
+  letter-spacing: 3px;
 }
 
 .hero-section h2 {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
+/*Navbar styling*/
+.navbar-nav li {
+    margin: 0 25px;
+}
 
+.transparent {
+    background: transparent;
+}
+
+.mybtn {
+    color: #ffffff;
+    background-color: orange;
+    
+}
+
+/* Styling the Carousel */
+
+/*Why Us section*/
+
+.why-us {
+    font-weight: bold;
+    text-align: center;
+}
+
+.your-way h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.your-way li {
+    text-align: center;
+}
