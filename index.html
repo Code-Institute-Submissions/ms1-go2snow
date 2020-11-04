@@ -78,9 +78,9 @@
             Resorts
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Whistler</a>
-            <a class="dropdown-item" href="#">Banff</a>
-            <a class="dropdown-item" href="#">Lake Louise</a>
+            <a class="dropdown-item" href="whistler.html">Whistler</a>
+            <a class="dropdown-item" href="banff.html">Banff</a>
+            <a class="dropdown-item" href="lakelouise.html">Lake Louise</a>
           </div>
         </li>
       </ul>
@@ -164,7 +164,7 @@
             <h4 class="text-uppercase">Let's keep in touch!</h4>
             <p>Subscribe to our mailing list</p>
             <p>Deals sent directly to your inbox!</p>
-            <a href="#" class="btn btn-warning">Sign Up!</a>
+            <button class="btn btn-warning" data-toggle="modal" data-target="#signUpModal" >Sign Up!</button>
           </div>
         </div>
       </div>
@@ -190,6 +190,7 @@
     <!--Why choose us section-->
     <section class="why-us-section">
       <h1 class="why-us d-none d-md-block">Why Choose GO2SNOW?</h1>
+      <hr class="short-bar">
       <p class="d-none d-md-block">
         Here at GO2SNOW, we believe in skiing on your terms; wherever you want
         to fly from, however long you want to go for, we'll get you to the
@@ -211,6 +212,7 @@
         about something or can't find exactly what you're looking for, let us
         know, we know a thing or two about ski holidays.
       </p>
+      <hr class="short-bar">
 
       <div class="your-way">
         <h1>Ski Holidays: Your Way</h1>
@@ -220,19 +222,8 @@
       </div>
     </section>
 
-    
-
     <!--Iframe section-->
-    <h2 class="video-inspo">Need some inspiration?</h2>
-    <div class="embed-responsive embed-responsive-16by9 mb-4">
-      <iframe
-        class="embed-responsive-item"
-        src="https://www.youtube.com/embed/vlDzYIIOYmM"
-        width="640"
-        height="360"
-        allowfullscreen
-      ></iframe>
-    </div>
+  
 
     <!-- Footer -->
     <footer class="page-footer font-small stylish-color-dark pt-4">
@@ -376,28 +367,23 @@
       <!-- Social buttons -->
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
+          <a href="https://www.facebook.com/" target="_blank" class="btn-floating btn-fb mx-1">
             <i class="fab fa-facebook-f"> </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
+          <a href="https://twitter.com/?lang=en" target="_blank" class="btn-floating btn-tw mx-1">
             <i class="fab fa-twitter"> </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
+          <a href="https://myaccount.google.com/intro/profile" target="_blank" class="btn-floating btn-gplus mx-1">
             <i class="fab fa-google-plus-g"> </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
+          <a href="https://ie.linkedin.com/" target="_blank" class="btn-floating btn-li mx-1">
             <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-dribbble mx-1">
-            <i class="fab fa-dribbble"> </i>
           </a>
         </li>
       </ul>
@@ -406,7 +392,7 @@
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
         © 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://mdbootstrap.com/"> elerel.com</a>
       </div>
       <!-- Copyright -->
     </footer>
@@ -417,7 +403,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title">
-              <i class="far fa-envelope"></i> Send Us Your Enquiry
+              <i class="far fa-envelope"></i> Send Us Your Enquiry!
             </h4>
             <button
               type="button"

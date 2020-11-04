@@ -47,10 +47,9 @@ body {
   font-size: 100%;
   width: 400px;
   height: 260px;
-  top: 200px;
-  left: 100px;
-  bottom: 120px;
-  right: 150px;
+  margin: 0 auto;
+  margin-bottom: auto;
+  bottom: 200px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -60,11 +59,13 @@ body {
   font-size: 100%;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-bottom: auto;
   width: 400px;
-  height: 260px;
+  height: 220px;
   top: 200px;
   left: 100px;
-  bottom: 120px;
+  bottom: 100px;
   right: 150px;
 }
 
@@ -76,6 +77,8 @@ body {
   padding-top: 40px;
   padding-left: 10px;
   padding-bottom: 60px;
+  margin: 0 auto;
+  margin-bottom: auto;
   background-color: rgba(0, 0, 0, 0.5);
   top: 200px;
   left: 100px;
@@ -101,14 +104,28 @@ body {
 
 .why-us {
   top: 5px;
+  padding-top: 15px;
   color: #ffffff;
   text-align: center;
 }
 
-.your-way h1 {
+.your-way {
   text-align: center;
+  padding-bottom: 15px;
+ 
+
 }
 
+.short-bar {
+    width: 50%;
+    border: 1px solid white;
+}
+
+/* Iframe styling*/
+
+.embed-responsive-item {
+    text-align: center;
+}
 
 /* Footer Styling */
 
