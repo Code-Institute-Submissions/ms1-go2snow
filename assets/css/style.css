@@ -51,7 +51,7 @@ body {
   left: 100px;
   bottom: 120px;
   right: 150px;
-  background-color: rgba(0, 0, 0, 0.5)
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .snowrun-cover-text {
@@ -66,7 +66,6 @@ body {
   left: 100px;
   bottom: 120px;
   right: 150px;
-
 }
 
 .sunpeaks-cover-text {
@@ -91,29 +90,41 @@ body {
 
 /*Why Us section*/
 
+.why-us-section {
+  background-color: orange;
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 .why-us {
-  font-weight: bold;
+  top: 5px;
+  color: #ffffff;
   text-align: center;
 }
 
 .your-way h1 {
-  font-weight: bold;
   text-align: center;
 }
 
-.your-way li {
-  text-align: center;
-}
 
 /* Footer Styling */
 
 .footer-content {
-    background-color: rgba(0, 0, 0, 0.5);
-    font: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font: #ffffff;
 }
 
 .video-inspo {
-    text-align: center;
-    
-   
+  text-align: center;
+}
+
+.footer-contact {
+  color: blue;
+}
+
+.top-button {
+  text-align: center;
 }
