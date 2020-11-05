@@ -14,6 +14,10 @@ body {
 
 /*Navbar styling*/
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
 .navbar-nav li {
   margin: 0 25px;
 }
@@ -27,6 +31,7 @@ body {
   font-weight: bold;
   padding-right: 20px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .transparent {
   background: rgba(0, 0, 0, 0.5);
@@ -37,7 +42,22 @@ body {
   background-color: orange;
 }
 
+.ph-no {
+    color: white;
+}
+
 /* Styling the Carousel */
+
+.carousel-item {
+   text-align: center;
+	height: 100vh;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
 
 .cover-text,
 .cover-text h2 {
