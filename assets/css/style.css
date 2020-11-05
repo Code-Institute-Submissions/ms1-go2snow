@@ -104,7 +104,8 @@ body {
 
 .why-us {
   top: 5px;
-  padding-top: 15px;
+  padding-top: 20px;
+  padding-left: 60px 60px;
   color: #ffffff;
   text-align: center;
 }
@@ -145,3 +146,59 @@ body {
 .top-button {
   text-align: center;
 }
+
+/*Review Section*/
+
+.feedback-section {
+	background-color: #ffffff;
+}
+
+.carousel-item-feedback {
+	padding: 25px 150px;
+	color: darkblue;
+    
+}
+
+@media screen and (max-width:800px) {
+	.carousel-item-feedback {
+		padding: 25px 50px;
+	}
+}
+
+.carousel-item-feedback h1, h2 {
+    text-align: center;
+}
+
+/*Offers Section*/
+
+.latest-offers {
+    background-image: url("../images/offers.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 100%;
+	overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+
+}
+.card-title {
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.card-deck {
+    padding: 20px 20px;    
+
+}
+
+
+
+
