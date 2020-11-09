@@ -205,3 +205,22 @@ body {
 }
 
 
+/* Resorts Section */
+
+
+.row {
+    margin-top: 85px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.row-resorts {
+    margin-top: 15px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    
+  
+}
