@@ -34,8 +34,9 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .transparent {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .mybtn {
@@ -51,57 +52,71 @@ body {
     
 }
 
-/* Styling the Carousel */
+/* Hero Section */
 
-.carousel-item {
-   text-align: center;
-	height: 100vh;
-	background-size: cover;
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/air.jpg");
+    background-size: cover;
+    overflow: hidden;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-.carousel-caption {
-  color: white;
-  text-align: center;
-  font-size: 100%;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  margin-bottom: auto;
-  width: 400px;
-  height: 280px;
-  top: 200px;
-  left: 100px;
-  bottom: 100px;
-  right: 150px;
+@keyframes hero-zoom {
+0% {
+    transform: scale(1);
+}
+100% {
+    transform: scale(1.1);
+}
 }
 
+.cta-button {
+    font-size: 100%;
+    margin: 0 auto;
+    width: 380px;
+    height: 300px;
+    padding-top: 20px;
+    background-color: rgba(25, 63, 25, 0.7);
+    color: #ffffff;
+    top: 200px;
+    left: 100px;
+    bottom: 100px;
+    right: 150px;
+    position: absolute;
+    text-align: center;
+}
 
-.snowrun-cover-text h1 {
-  text-decoration: underline;
-  color: #14116a;
+@media screen and (max-width:768px) {
+    .cta-button {
+        left: 15px;
+        font-size: 50%;
+        
+    }
 }
 
 /*Why Us section*/
 
 .why-us-section {
-  background-color: #1b815a;
-  color: #ffffff;
+  color: #1b815a;
   text-align: center;
-  clear: both;
   padding-right: 60px;
   padding-left: 60px;
+ 
 }
 
 .why-us {
   top: 5px;
   padding-top: 40px;
   padding-left: 60px 60px;
-  color: #ffffff;
+  color: #1b815a;
   text-align: center;
 }
 
@@ -117,13 +132,7 @@ body {
 
 .short-bar {
     width: 50%;
-    border: 1px solid white;
-}
-
-/* Iframe styling*/
-
-.embed-responsive-item {
-    text-align: center;
+    border: 1px solid #ffc107;
 }
 
 /* Footer Styling */
@@ -140,7 +149,6 @@ body {
 .top-button {
   text-align: center;
 }
-
 
 /*Offers Section*/
 
@@ -224,3 +232,8 @@ body {
 .brand-leaf {
     color: red;
 }
+
+@media (min-width: 1000px) {
+  .carousel-item {
+    max-height: 750px;
+  }

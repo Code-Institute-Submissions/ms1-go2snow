@@ -2,11 +2,6 @@
 
 The aim of this project was to create a user-friendly website based on a ski holiday travel company. I currently work in the travel-industry and often find that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that and allows the user to find inspiration and get in touch to find out more.
 
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
-
 ## Overview
 
 There are many travel operator websites out there, and the aim of GO2SNOW was really all about creating something that keeps the visitor interested, wanting to find out more. 
@@ -15,6 +10,7 @@ We are often inundated with information when we visit various websites and this 
 ## Description 
 
 It is a travel website that is accessible on all devices, that is aimed to create a positive user-experience and boost the company's image and business goals.
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
