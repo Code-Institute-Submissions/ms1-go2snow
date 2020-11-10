@@ -14,21 +14,18 @@ body {
 
 /*Navbar styling*/
 
-.navbar-brand:hover {
-    color:#ffc107;
-}
-
 .navbar .navbar-toggler {
     border: 0;
 }
 
 .navbar-nav li {
   margin: 0 25px;
+  padding-top: 10px;
+
 }
 
-.nav-link:hover {
+ .nav-link:hover {
   text-decoration: underline;
-  fill: #ffc107;
 }
 
 .navbar-text {
@@ -47,8 +44,11 @@ body {
   border: 0;
 }
 
-.ph-no {
+.phone-number {
     color: white;
+    font-weight: bold;
+    margin-left: 60px;
+    
 }
 
 /* Styling the Carousel */
@@ -89,17 +89,17 @@ body {
 /*Why Us section*/
 
 .why-us-section {
-  background-color: #ffc107;
+  background-color: #1b815a;
   color: #ffffff;
   text-align: center;
   clear: both;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .why-us {
   top: 5px;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-left: 60px 60px;
   color: #ffffff;
   text-align: center;
@@ -108,8 +108,11 @@ body {
 .your-way {
   text-align: center;
   padding-bottom: 15px;
- 
+}
 
+.h1-ylw {
+    color: #ffc107;
+    font-weight: bold;
 }
 
 .short-bar {
@@ -130,10 +133,6 @@ body {
   font: #ffffff;
 }
 
-.video-inspo {
-  text-align: center;
-}
-
 .footer-contact {
   color: black;
 }
@@ -146,7 +145,7 @@ body {
 /*Offers Section*/
 
 .offers-page {
-    background-color: #ffc107;
+    background-color: #1b815a;
 }
 
 .latest-offers {
@@ -207,7 +206,6 @@ body {
 
 /* Resorts Section */
 
-
 .row {
     margin-top: 85px;
     margin-right: 15px;
@@ -220,7 +218,5 @@ body {
 }
 
 .jumbotron {
-    background-color: transparent;
-    
-  
+    background-color: rgba(0, 0, 0, 0.25);
 }
