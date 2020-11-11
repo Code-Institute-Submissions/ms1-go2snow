@@ -89,18 +89,35 @@ body {
     top: 200px;
     left: 100px;
     bottom: 100px;
-    right: 150px;
+    right: 100px;
     position: absolute;
     text-align: center;
 }
 
+/* Media Queries*/
+
 @media screen and (max-width:768px) {
     .cta-button {
-        left: 15px;
         font-size: 50%;
-        
+        width: 170px;
+        height: 170px;
+        margin-top: 100px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .text-uppercase {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .offers-btn {
+        width: 75%;
+        font-size: 50%;
+    }
+}
+
 
 /*Why Us section*/
 
@@ -152,10 +169,6 @@ body {
 
 /*Offers Section*/
 
-.offers-page {
-    background-color: #1b815a;
-}
-
 .latest-offers {
     background-image: url("../images/offers.jpg");
     background-size: cover;
@@ -164,7 +177,7 @@ body {
     -o-background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	height: 100%;
+	height: 320px;
 	overflow: hidden;
     padding-top: 120px;
     padding-bottom: 50px;
@@ -180,27 +193,19 @@ body {
 }
 
 .card-deck {
-    padding: 20px 20px;    
+    padding: 20px 20px; 
+      
+
+}
+
+.card {
+    border: 1px solid #2f4656;
 
 }
 
 /*Review Section*/
 
-.carousel-item-feedback {
-	padding: 25px 150px;
-	color: #1f096e;
-    
-}
 
-@media screen and (max-width:800px) {
-	.carousel-item-feedback {
-		padding: 25px 50px;
-	}
-}
-
-.carousel-item-feedback h1, h2 {
-    text-align: center;
-}
 
 /* Pricing */
 
@@ -213,6 +218,24 @@ body {
 
 
 /* Resorts Section */
+
+.resorts {
+    background-image: url("../images/resorts.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 320px;
+	overflow: hidden;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+
+}
 
 .row {
     margin-top: 85px;
@@ -232,8 +255,3 @@ body {
 .brand-leaf {
     color: red;
 }
-
-@media (min-width: 1000px) {
-  .carousel-item {
-    max-height: 750px;
-  }

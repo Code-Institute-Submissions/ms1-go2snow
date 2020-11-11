@@ -15,18 +15,20 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
 
-    <!--Favicon-->
-    <link rel="icon" type="img/png" href="assets/images/favicon.png"/>
+	<!--Favicon-->
+	<link rel="icon" type="img/png" href="assets/images/favicon.png" />
 	<!-- LINK TO CSS -->
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<title>go2snow | your ski holiday specialists</title>
 </head>
 <!--Navbar-->
+
 <body class="offers-page">
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark transparent">
-	<a class="navbar-brand" href="index.html"><i class="fab fa-canadian-maple-leaf" style="color:red"></i>GO2SNOW</a>
-	<button
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark transparent">
+		<a class="navbar-brand"
+			href="index.html"><i class="fab fa-canadian-maple-leaf" style="color:red"></i>GO2SNOW</a>
+		<button
       class="navbar-toggler"
       type="button"
       data-toggle="collapse"
@@ -37,135 +39,143 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="offers.html">Offers & Deals</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="resorts.html">Resorts</a>
-			</li>
-		</ul>
-		<div class="d-none d-md-block">
-			<p class="navbar-text mr-auto">
-				<i class="fas fa-phone"></i> Call Now 01 2953909
-			</p>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="offers.html">Offers & Deals</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="resorts.html">Resorts</a>
+				</li>
+			</ul>
+			<div class="d-none d-md-block">
+				<p class="navbar-text mr-auto">
+					<i class="fas fa-phone"></i> Call Now 01 2953909
+				</p>
+			</div>
+		</div>
+
+		<!--Enquire button and modal form here- copied from mdbootstrap-->
+
+		<div class="contact-btn d-none d-sm-block">
+			<button
+          type="button"
+          class="btn btn-light btn-lg my-2 my-sm-0 mybtn"
+          data-toggle="modal"
+          data-target="#contactmodal"
+        >
+          CONTACT US!
+        </button>
+		</div>
+	</nav>
+	<!--Latest Offers Section-->
+	<section class="latest-offers">
+		<h1>Offers and Deals for 2021</h1>
+	</section>
+
+	<div class="card-deck offers">
+		<div class="card">
+			<img class="card-img-top" src="assets/images/air.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+				<h4 class="card-title">Whistler, BC €1199pp</h4>
+				<hr>
+				<h5 class="card-text"> Aava Hotel, 4<i class="fas fa-star"></i></h5>
+				<p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Wed 13th Jan 2021 Room Only</p>
+				<p class="card-text"><i class="fas fa-plane"></i> Dublin - Vancouver</p>
+				<p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
+				<!--taken from Stackoverflow-how to centre align buttons-->
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-toggle="modal"
+      data-target="#contactmodal">Enquire Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="assets/images/fernie.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+				<h4 class="card-title">Fernie, BC €899pp</h4>
+				<hr>
+				<h5 class="card-text text-center"> Fernie Stanford Resort, 4<i class="fas fa-star"></i></h5>
+				<p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Sat 20th March 2021 Room Only</p>
+				<p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
+				<p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-toggle="modal"
+      data-target="#contactmodal">Enquire Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="assets/images/banff.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h4 class="card-title">Banff, Alberta €1222pp</h4>
+				<hr>
+				<h5 class="card-text text-center"> Banff Ptarmigan Inn 3 <i class="fas fa-star"></i></h5>
+				<p class="card-text"><i class="fas fa-hotel"></i> 6 Nights from Wednesday 17th March 2021 Room Only</p>
+				<p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
+				<p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-toggle="modal"
+      data-target="#contactmodal">Enquire Now</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card-deck offers">
+		<div class="card">
+			<img class="card-img-top" src="assets/images/air.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+				<h4 class="card-title">Sun Peaks, BC €999pp</h4>
+				<hr>
+				<h5 class="card-text"> Self Catering 2-Bed Apartment, in the heart of town!</h5>
+				<p class="card-text"><i class="fas fa-hotel"></i> 5 Nights from Wed 13th Jan 2021 Room Only</p>
+				<p class="card-text"><i class="fas fa-plane"></i> Dublin - Vancouver</p>
+				<p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
+				<!--taken from Stackoverflow-how to centre align buttons-->
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-toggle="modal"
+      data-target="#contactmodal">Enquire Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="assets/images/fernie.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+				<h4 class="card-title">Lake Louise, Alberta €1499pp</h4>
+				<hr>
+				<h5 class="card-text text-center">Fairmont Château Lake Louise, 5 <i class="fas fa-star"></i></h5>
+				<p class="card-text"><i class="fas fa-hotel"></i> 5 Nights from Fri 22nd Jan 2021 Room Only</p>
+				<p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
+				<p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-toggle="modal"
+      data-target="#contactmodal">Enquire Now</button>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<img class="card-img-top" src="assets/images/banff.jpg" alt="Card image cap">
+			<div class="card-body">
+				<h4 class="card-title">Banff, Alberta €1625pp</h4>
+				<hr>
+				<h5 class="card-text text-center"> Fairmont Banff Springs, 5 <i class="fas fa-star"></i></h5>
+				<p class="card-text"><i class="fas fa-hotel"></i> 5 Nights from Sat 10th Jan 2021 Room Only</p>
+				<p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
+				<p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-toggle="modal"
+      data-target="#contactmodal">Enquire Now</button>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<!--Enquire button and modal form here- copied from mdbootstrap-->
+	<hr class="short-bar">
 
-	<button
-      type="button"
-      class="btn btn-light btn-lg my-2 my-sm-0 mybtn"
-      data-toggle="modal"
-      data-target="#contactmodal"
-    >
-      CONTACT US!
-    </button>
-</nav>
-<!--Latest Offers Section-->
-<section class="latest-offers">
-<h1>Offers and Deals for 2021</h1>
-</section>
-	
-<div class="card-deck offers">
-  <div class="card">
-    <img class="card-img-top" src="assets/images/air.jpg" alt="Card image cap">
-    <div class="card-body text-center">
-      <h4 class="card-title">Whistler, BC €1199pp</h4><hr>
-      <h5 class="card-text"> Aava Hotel, 4<i class="fas fa-star"></i></h5>
-      <p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Wed 13th Jan 2021 Room Only</p>
-      <p class="card-text"><i class="fas fa-plane"></i> Dublin - Vancouver</p>
-      <p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
-      <!--taken from Stackoverflow-how to centre align buttons-->
-      <div class="d-flex justify-content-center">
-      <button class="btn btn-primary" data-toggle="modal"
-      data-target="#contactmodal">Enquire Now</button>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/images/fernie.jpg" alt="Card image cap">
-    <div class="card-body text-center">
-    <h4 class="card-title">Fernie, BC €899pp</h4><hr>
-      <h5 class="card-text text-center"> Fernie Stanford Resort, 4<i class="fas fa-star"></i></h5>
-      <p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Sat 20th March 2021 Room Only</p>
-      <p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
-      <p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
-      <div class="d-flex justify-content-center">
-       <button class="btn btn-primary" data-toggle="modal"
-      data-target="#contactmodal">Enquire Now</button>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/images/banff.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Banff, Alberta €1299pp</h4><hr>
-     <h5 class="card-text text-center"> Fernie Stanford Resort, 4<i class="fas fa-star"></i></h5>
-      <p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Sat 20th March 2021 Room Only</p>
-      <p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
-      <p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
-      <div class="d-flex justify-content-center">
-       <button class="btn btn-primary" data-toggle="modal"
-      data-target="#contactmodal">Enquire Now</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card-deck offers">
-  <div class="card">
-    <img class="card-img-top" src="assets/images/air.jpg" alt="Card image cap">
-    <div class="card-body text-center">
-      <h4 class="card-title">Whistler, BC €1199pp</h4><hr>
-      <h5 class="card-text"> Aava Hotel, 4<i class="fas fa-star"></i></h5>
-      <p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Wed 13th Jan 2021 Room Only</p>
-      <p class="card-text"><i class="fas fa-plane"></i> Dublin - Vancouver</p>
-      <p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
-      <!--taken from Stackoverflow-how to centre align buttons-->
-      <div class="d-flex justify-content-center">
-       <button class="btn btn-primary" data-toggle="modal"
-      data-target="#contactmodal">Enquire Now</button>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/images/fernie.jpg" alt="Card image cap">
-    <div class="card-body text-center">
-    <h4 class="card-title">Fernie, BC €899pp</h4><hr>
-      <h5 class="card-text text-center"> Fernie Stanford Resort, 4<i class="fas fa-star"></i></h5>
-      <p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Sat 20th March 2021 Room Only</p>
-      <p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
-      <p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
-      <div class="d-flex justify-content-center">
-       <button class="btn btn-primary" data-toggle="modal"
-      data-target="#contactmodal">Enquire Now</button>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/images/banff.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Banff, Alberta €1299pp</h4><hr>
-     <h5 class="card-text text-center"> Fernie Stanford Resort, 4<i class="fas fa-star"></i></h5>
-      <p class="card-text"><i class="fas fa-hotel"></i> 7 Nights from Sat 20th March 2021 Room Only</p>
-      <p class="card-text"><i class="fas fa-plane"></i> Dublin - Calgary</p>
-      <p class="card-text"><i class="fas fa-bus"></i> Coach transfers incl</p>
-      <div class="d-flex justify-content-center">
-      <button class="btn btn-primary" data-toggle="modal"
-      data-target="#contactmodal">Enquire Now</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<hr class="short-bar">
-
-	
 
 	<footer class="page-footer font-small stylish-color-dark pt-4">
 		<!-- Footer Links -->
@@ -176,11 +186,12 @@
 				<!-- Grid column -->
 				<div class="col-md-4 mx-auto">
 					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">
-						Footer Content
+						GO2SNOW
 					</h5>
 					<p>
-						Here you can use rows and columns to organize your footer content.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						GO2SNOW is a Canada ski holiday specialist offering the very best ski packages found across
+						Canada. We are the experts in tailor-made holidays and we can help you book your dream ski
+						holiday with help from our talented travel experts who have a wealth of knowledge.
 					</p>
 				</div>
 				<!-- Grid column -->
@@ -194,17 +205,11 @@
 
 					<ul class="list-unstyled">
 						<li>
-							<a href="#!">Whistler/Blackcomb</a>
+							<a href="https://www.whistlerblackcomb.com/" target="_blank">Whistler/Blackcomb</a>
 						</li>
-						<li>
-							<a href="#!">Banff</a>
-						</li>
-						<li>
-							<a href="#!">Sun Peaks</a>
-						</li>
-						<li>
-							<a href="#!">Lake Louise</a>
-						</li>
+						<li><a href="https://banff.ca/" target="_blank">Banff</a></li>
+						<li><a href="https://www.sunpeaksresort.com/" target="_blank">Sun Peaks</a></li>
+						<li><a href="https://www.banfflakelouise.com/lake-louise" target="_blank">Lake Louise</a></li>
 					</ul>
 				</div>
 				<!-- Grid column -->
@@ -292,27 +297,28 @@
 
 		<!-- Social buttons -->
 		<ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a href="https://www.facebook.com/" target="_blank" class="btn-floating btn-fb mx-1">
-            <i class="fab fa-facebook-f"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com/?lang=en" target="_blank" class="btn-floating btn-tw mx-1">
-            <i class="fab fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://myaccount.google.com/intro/profile" target="_blank" class="btn-floating btn-gplus mx-1">
-            <i class="fab fa-google-plus-g"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://ie.linkedin.com/" target="_blank" class="btn-floating btn-li mx-1">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </li>
-      </ul>
+			<li class="list-inline-item">
+				<a href="https://www.facebook.com/" target="_blank" class="btn-floating btn-fb mx-1">
+					<i class="fab fa-facebook-f"> </i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a href="https://twitter.com/?lang=en" target="_blank" class="btn-floating btn-tw mx-1">
+					<i class="fab fa-twitter"> </i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a href="https://myaccount.google.com/intro/profile" target="_blank"
+					class="btn-floating btn-gplus mx-1">
+					<i class="fab fa-google-plus-g"> </i>
+				</a>
+			</li>
+			<li class="list-inline-item">
+				<a href="https://ie.linkedin.com/" target="_blank" class="btn-floating btn-li mx-1">
+					<i class="fab fa-linkedin-in"> </i>
+				</a>
+			</li>
+		</ul>
 		<!-- Social buttons -->
 
 		<!-- Copyright -->
@@ -322,7 +328,7 @@
 		</div>
 		<!-- Copyright -->
 	</footer>
-	
+
 	<!--Modal form from Bootstrap and CI Modal Forms class-->
 	<div class="modal" tabindex="-1" role="dialog" id="contactmodal">
 		<div class="modal-dialog" role="document">
@@ -464,4 +470,5 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
 </body>
+
 </html>
