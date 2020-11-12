@@ -9,7 +9,9 @@ We are often inundated with information when we visit various websites and this 
  
 ## Description 
 
-It is a travel website that is accessible on all devices, that is aimed to create a positive user-experience and boost the company's image and business goals.
+It is a specialist travel company website that is intended to be accessible on all devices. My aim in this project was to avoid the over-infomative appearance, to create a positive user-experience and boost the company's image and business goals.
+
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605217581/amiresponsive_ehvwfv.png)
 
 ## UX
  
