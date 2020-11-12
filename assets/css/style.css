@@ -14,6 +14,10 @@ body {
 
 /*Navbar styling*/
 
+#nav-header {
+    background-color: #2f4656;
+}
+
 .navbar .navbar-toggler {
     border: 0;
 }
@@ -35,9 +39,10 @@ body {
   margin-bottom: 10px;
 }
 
+/*
 .transparent {
   background: rgba(0, 0, 0, 0.25);
-}
+}*/
 
 .mybtn {
   color: #ffffff;
@@ -233,7 +238,7 @@ body {
 /* Resorts Section */
 
 .resorts {
-    background-image: url("../images/resorts.jpg");
+    background-image: url("../images/whistler1.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
