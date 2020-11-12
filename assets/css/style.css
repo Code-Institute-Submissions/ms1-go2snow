@@ -121,7 +121,7 @@ body {
 
 @media screen and (max-width:450px) {
 	.hero-section h3 {
-		font-size: 75%;
+		font-size: 20px;
 	}
 }
 
