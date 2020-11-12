@@ -59,6 +59,30 @@ body {
     
 }
 
+/* Alert Section */
+
+.alert {
+    text-align: center;
+    letter-spacing: 1px;
+    top: 90px;
+    background-color: #c5423b;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    left: 0;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 4px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+    z-index: 1;
+    display: flex;  
+}
+
 /* Hero Section - Animations and key frames taken fromr CI Love Running Project */
 
 .hero-section {
@@ -119,7 +143,13 @@ body {
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 1000px) {
+    .alert {
+        top: 60px;
+    }
+}
+
+@media screen and (max-width:468px) {
 	.hero-section h3 {
 		font-size: 20px;
 	}
@@ -128,6 +158,12 @@ body {
 @media screen and (max-width: 768px ) {
     .mybtn {
         margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .navbar-brand {
+        font-size: 20px;
     }
 }
 
@@ -273,3 +309,14 @@ body {
 .brand-leaf {
     color: red;
 }
+
+.jumbotron {
+    background-color: #2f4656;
+    color: #ffffff;
+
+}
+
+
+
+
+
