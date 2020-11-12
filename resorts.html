@@ -71,15 +71,15 @@
 			</ul>
 		</div>
     <!--Enquire button and modal form here- copied from mdbootstrap-->
-
-    <button
-      type="button"
-      class="btn btn-light btn-lg my-2 my-sm-0 mybtn"
-      data-toggle="modal"
-      data-target="#contactmodal"
-    >
-      CONTACT US!
-    </button>
+<div class="contact-btn d-none d-sm-block">
+			<button
+          type="button"
+          class="btn btn-light btn-lg my-2 my-sm-0 mybtn"
+          data-toggle="modal"
+          data-target="#contactmodal"
+        >CONTACT US!
+        </button>
+		</div>
   </nav>
   <body class="resorts-section">
     <section class="resorts">
@@ -339,7 +339,146 @@ The iconic lake itself stretches 2.5km in length and freezes during the winter m
       </div>
       <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-    <!--footer-->
+   <!--Modal forms from Bootstrap 4 and CI Modal Forms class-->
+	<div class="modal" tabindex="-1" role="dialog" id="contactmodal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">
+						<i class="far fa-envelope"></i> Send Us Your Enquiry!
+					</h4>
+					<button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1"
+                  ><i class="fas fa-signature"></i> Full Name:</label>
+							<textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="1"
+                  placeholder="Full Name"
+                ></textarea>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1"
+                  ><i class="fas fa-at"></i> Email address:</label>
+							<input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                  required
+                />
+							<small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1"
+                  ><i class="fas fa-mobile"></i> Contact Number:</label>
+							<textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea0"
+                  rows="1"
+                  placeholder="Contact Number"
+                ></textarea>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1"
+                  ><i class="fas fa-snowflake"></i> Enquiry details:</label>
+							<textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea2"
+                  rows="5"
+                  placeholder="Tell us about your ideal ski break! So that we can provide the best quote tailored to your needs, please let us know any additional information, such as: how many people are travelling? Do you have any resorts in mind or an approximate budget? "
+                ></textarea>
+						</div>
+						<button type="submit" class="btn btn-secondary">Close</button>
+						<button type="submit" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> Send
+              </button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Subscribe modal-->
+	<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to GO2SNOW!</h5>
+					<button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail2"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                  required
+                />
+							<small id="emailHelp1" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+							<div class="form-group">
+								<label for="repeatPassword">Repeat Password</label>
+								<input
+                  type="password"
+                  class="form-control"
+                  id="repeatPassword"
+                  placeholder="Repeat Password"
+                  required
+                />
+              </div>
+								<button type="submit" class="btn btn-success">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
   </body>
 </html>

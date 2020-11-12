@@ -43,10 +43,12 @@ body {
   color: #ffffff;
   background-color: #ffc107;
   border: 0;
+  margin-right: 60px;
 }
 
 .phone-number {
     color: white;
+    font-size: 130%;
     font-weight: bold;
     margin-left: 60px;
     
@@ -67,6 +69,11 @@ body {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+.hero-section h3 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px #ffc107;
 }
 
 @keyframes hero-zoom {
@@ -109,12 +116,15 @@ body {
 
 @media screen and (max-width:450px) {
 	.hero-section h3 {
-        text-transform: uppercase;
-        font-weight: bold;
 		font-size: 75%;
 	}
 }
 
+@media screen and (max-width: 768px ) {
+    .mybtn {
+        margin-right: 15px;
+    }
+}
 
 /*Why Us section*/
 
