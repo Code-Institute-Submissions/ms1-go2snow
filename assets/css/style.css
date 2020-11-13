@@ -24,7 +24,7 @@ body {
 
 .navbar-nav li {
   margin: 0 25px;
-  padding-top: 10px;
+  padding-top: 25px;
 
 }
 
@@ -64,7 +64,7 @@ body {
 .alert {
     text-align: center;
     letter-spacing: 1px;
-    top: 90px;
+    top: 100px;
     background-color: #c5423b;
     color: #ffffff;
     border: 0;
@@ -74,7 +74,7 @@ body {
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
-    padding: 4px;
+    padding: 6px;
     margin: 0;
     overflow: hidden;
     white-space: nowrap;
