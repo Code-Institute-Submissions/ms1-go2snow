@@ -1,6 +1,8 @@
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605301159/go2snowimg_ndpk9j.png)
+
 # GO2SNOW - Milestone Project 1 
 
-The aim of this project was to create a user-friendly website based on a ski holiday travel company. I currently work in the travel-industry and often find that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that and allows the user to find inspiration and get in touch to find out more.
+The aim of this project was to create a user-friendly website based on a ski holiday travel company. Having some years in the travel-industry, one thing heard over the years is  that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that, without the fuss and overabundance of options and instead, let the user find inspiration and get in touch to find out more.
 
 ## Overview
 
@@ -14,19 +16,54 @@ It is a specialist travel company website that is intended to be accessible on a
 ![Image](https://res.cloudinary.com/elerel/image/upload/v1605279942/amiresponsive2_oucrxe.png)
 
 ---
-## UX
+## UX- Strategy
 
-My travel website would be aimed a number of demographs for example, the family that go on a holiday skiing every year, tour or school/university groups and a young, adventurous group of people that are looking for a different style of holiday.  
+My travel website is aimed to attract a number of various demographics, the busy parent who is looking to book their annual family ski holiday; a tour group or school/university group planning a ski trip, plus a young, adventurous traveller that is looking for a different style of holiday.  
+
+**Business Goals**
+
+> - To gain an increase in website user activity, online enquiries and direct contact with the company
+
+> - To provide a professional, clear and easy to navigate website for any type of traveler, be it
+first time user as well
+
+> - Improve website SEO and appear as one of the first options for ski holiday specialists in Ireland/UK in your browser search
 
 **User Stories**
 
-> - _ “I regularly book family holidays and want to find a well-established/well-reviewed company that
+#### As a First Time User:
+
+> - _“I regularly book family holidays and want to find a well-established/well-reviewed company that
 can offer some deals that suit our holiday interests”
-> - _ “I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
-> - _ “As a first-time user and want to be able to navigate easily throughout the website with access to
+
+> - _“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+
+> - _“As a first-time user and want to be able to navigate easily throughout the website with access to
 the information I need”
-> - _  “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
-> - _ “I would like to find packages available with a company who are bonded and ATOL protected”
+
+> - _ “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+
+> - _“I would like to find packages available with a company who are bonded and ATOL protected”
+
+#### As a Regular User: 
+
+> - _"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
+
+> - _"To avail of the return client discounts available!"
+
+> - _"To book with a comapny I know and trust, ease of booking process and usually deal with the same agent each time"
+
+> - _“As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+country/territory/province etc”
+
+## Scope
+
+## Structure
+
+## Skeleton
+wireframes here
+
+## Surface
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
