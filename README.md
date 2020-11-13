@@ -11,10 +11,24 @@ We are often inundated with information when we visit various websites and this 
 
 It is a specialist travel company website that is intended to be accessible on all devices. My aim in this project was to avoid the over-infomative appearance, to create a positive user-experience and boost the company's image and business goals.
 
-![Image](https://res.cloudinary.com/elerel/image/upload/v1605217581/amiresponsive_ehvwfv.png)
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605279942/amiresponsive2_oucrxe.png)
 
+---
 ## UX
- 
+
+My travel website would be aimed a number of demographs for example, the family that go on a holiday skiing every year, tour or school/university groups and a young, adventurous group of people that are looking for a different style of holiday.  
+
+**User Stories**
+
+> - _ “I regularly book family holidays and want to find a well-established/well-reviewed company that
+can offer some deals that suit our holiday interests”
+> - _ “I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+> - _ “As a first-time user and want to be able to navigate easily throughout the website with access to
+the information I need”
+> - _  “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+> - _ “I would like to find packages available with a company who are bonded and ATOL protected”
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
