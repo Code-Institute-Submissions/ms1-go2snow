@@ -134,8 +134,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Pexels, Pixabay and Unsplash
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Canadian Sky, flexiski and crystal ski holidays
+- My Mentor, Nishant Kumar, for his guidance throughout this project
+- Special thanks to Clare Carroll and Louise Cranley for their tips and support building this project (UX design and content)
+- My husband and my family for providing endless support and feedback
