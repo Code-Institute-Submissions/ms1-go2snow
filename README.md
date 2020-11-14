@@ -2,11 +2,11 @@
 
 # GO2SNOW - Milestone Project 1 
 
-The aim of this project was to create a user-friendly website based on a ski holiday travel company. Having some years in the travel-industry, one thing heard over the years is  that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that, without the fuss and overabundance of options and instead, let the user find inspiration and get in touch to find out more.
+The aim of this project was to create a user-friendly website based on a ski holiday travel company. Having some years in the travel-industry, one thing heard over the years is  that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that, without the fuss and overabundance of options and instead, let the user gather some inspiration with the end result having an exciting ski-holiday booked.
 
 ## Overview
 
-There are many travel operator websites out there, and the aim of GO2SNOW was really all about creating something that keeps the visitor interested, wanting to find out more. 
+There are many travel operator websites out there, and the aim of GO2SNOW was really all about creating a platform that keeps the visitor interested, wanting to find out more. 
 We are often inundated with information when we visit various websites and this can disuade the user from meeting the business goals of the company. I wanted to avoid this by creating a clear and easy-to-use website that invites the user in and inspires them into booking a ski holiday.
  
 ## Description 
@@ -41,7 +41,7 @@ can offer some deals that suit our holiday interests”
 > - _“As a first-time user and want to be able to navigate easily throughout the website with access to
 the information I need”
 
-> - _ “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+> -  _“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
 
 > - _“I would like to find packages available with a company who are bonded and ATOL protected”
 
@@ -58,10 +58,18 @@ country/territory/province etc”
 
 ## Scope
 
+I wanted to create a website that incorporates the essential features that would interest the user and needs of the business:
+
+> A clear but brief description of the services offered by the company (Home page)
+> Clean UX with clear navigation on where to find the services offered and easy-to-find contact options per page
+
+
 ## Structure
 
+why you laid out the website the way you did- discuss the reasons why you designed each page
+
 ## Skeleton
-wireframes here
+The wireframes of my project can be viewed here. The wireframes do not exactly match my final project, the most obvious being the name of the project, changed from "Snowest" to "GO2SNOW" which I found to be a more catchy, more iconic name to the brand. I added further enhancements by implementing further imagery, removing the carousel feature on the offers and deals page and creating modal contact forms instead of a separate contact-us page.
 
 ## Surface
 
@@ -138,7 +146,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from Canadian Sky, flexiski and crystal ski holidays
+- I received inspiration for this project from Canadian Sky, Flexiski and Crystal Ski Holidays
 - My Mentor, Nishant Kumar, for his guidance throughout this project
 - Special thanks to Clare Carroll and Louise Cranley for their tips and support building this project (UX design and content)
-- My husband and my family for providing endless support and feedback
+- Haley in Tutor Support, Jim Morel and the Slack Community for their endless support, anytime of the day or night.
+- My husband and my family for their support and patience!
