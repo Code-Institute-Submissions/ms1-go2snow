@@ -22,6 +22,10 @@ body {
     border: 0;
 }
 
+.navbar-toggler {
+    margin: 0 auto;
+}
+
 .navbar-nav li {
   margin: 0 25px;
   padding-top: 25px;
@@ -282,8 +286,8 @@ body {
 	background-position: 50% 50%;
 	height: 320px;
 	overflow: hidden;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 20px;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
