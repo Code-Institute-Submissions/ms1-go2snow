@@ -33,17 +33,16 @@ first time user as well
 
 #### As a First Time User:
 
-> - _“I regularly book family holidays and want to find a well-established/well-reviewed company that
-can offer some deals that suit our holiday interests”
+> -“Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
 
-> - _“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+> -“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
 
-> - _“As a first-time user and want to be able to navigate easily throughout the website with access to
+> -“As a first-time user and want to be able to navigate easily throughout the website with access to
 the information I need”
 
-> -  _“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+> - “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
 
-> - _“I would like to find packages available with a company who are bonded and ATOL protected”
+> - "I would like to find packages available with a company who are bonded and ATOL protected”
 
 #### As a Regular User: 
 
