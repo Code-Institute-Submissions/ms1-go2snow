@@ -171,6 +171,12 @@ body {
     }
 }
 
+@media screen and (max-width:400px) {
+    .why-us {
+        padding-left: 0;
+    }
+}
+
 /*Why Us section*/
 
 .why-us-section {
