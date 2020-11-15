@@ -1,20 +1,78 @@
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605301159/go2snowimg_ndpk9j.png)
+
 # GO2SNOW - Milestone Project 1 
 
-The aim of this project was to create a user-friendly website based on a ski holiday travel company. I currently work in the travel-industry and often find that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that and allows the user to find inspiration and get in touch to find out more.
+The aim of this project was to create a user-friendly website based on a ski holiday travel company. Having some years in the travel-industry, one thing heard over the years is  that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that, without the fuss and overabundance of options and instead, let the user gather some inspiration with the end result having an exciting ski-holiday booked.
 
 ## Overview
 
-There are many travel operator websites out there, and the aim of GO2SNOW was really all about creating something that keeps the visitor interested, wanting to find out more. 
+There are many travel operator websites out there, and the aim of GO2SNOW was really all about creating a platform that keeps the visitor interested, wanting to find out more. 
 We are often inundated with information when we visit various websites and this can disuade the user from meeting the business goals of the company. I wanted to avoid this by creating a clear and easy-to-use website that invites the user in and inspires them into booking a ski holiday.
  
 ## Description 
 
 It is a specialist travel company website that is intended to be accessible on all devices. My aim in this project was to avoid the over-infomative appearance, to create a positive user-experience and boost the company's image and business goals.
 
-![Image](https://res.cloudinary.com/elerel/image/upload/v1605217581/amiresponsive_ehvwfv.png)
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605279942/amiresponsive2_oucrxe.png)
 
-## UX
- 
+---
+## UX- Strategy
+
+My travel website is aimed to attract a number of various demographics, the busy parent who is looking to book their annual family ski holiday; a tour group or school/university group planning a ski trip, plus a young, adventurous traveller that is looking for a different style of holiday.  
+
+**Business Goals**
+
+> - To gain an increase in website user activity, online enquiries and direct contact with the company
+
+> - To provide a professional, clear and easy to navigate website for any type of traveler, be it
+first time user as well
+
+> - Improve website SEO and appear as one of the first options for ski holiday specialists in Ireland/UK in your browser search
+
+**User Stories**
+
+#### As a First Time User:
+
+> -“Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
+
+> -“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+
+> -“As a first-time user and want to be able to navigate easily throughout the website with access to
+the information I need”
+
+> - “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+
+> - "I would like to find packages available with a company who are bonded and ATOL protected”
+
+#### As a Regular User: 
+
+> - _"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
+
+> - _"To avail of the return client discounts available!"
+
+> - _"To book with a comapny I know and trust, ease of booking process and usually deal with the same agent each time"
+
+> - _“As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+country/territory/province etc”
+
+## Scope
+
+I wanted to create a website that incorporates the essential features that would interest the user and needs of the business:
+
+> A clear but brief description of the services offered by the company (Home page)
+> Clean UX with clear navigation on where to find the services offered and easy-to-find contact options per page
+
+
+## Structure
+
+why you laid out the website the way you did- discuss the reasons why you designed each page
+
+## Skeleton
+The wireframes of my project can be viewed here. The wireframes do not exactly match my final project, the most obvious being the name of the project, changed from "Snowest" to "GO2SNOW" which I found to be a more catchy, more iconic name to the brand. I added further enhancements by implementing further imagery, removing the carousel feature on the offers and deals page and creating modal contact forms instead of a separate contact-us page.
+
+## Surface
+
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -83,8 +141,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Pexels, Pixabay and Unsplash
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Canadian Sky, Flexiski and Crystal Ski Holidays
+- My Mentor, Nishant Kumar, for his guidance throughout this project
+- Special thanks to Clare Carroll and Louise Cranley for their tips and support building this project (UX design and content)
+- Haley in Tutor Support, Jim Morel and the Slack Community for their endless support, anytime of the day or night.
+- My husband and my family for their support and patience!
