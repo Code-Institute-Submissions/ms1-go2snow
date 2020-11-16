@@ -74,13 +74,13 @@ I decided to separate the website into three sections- the home page, offers and
 
 The website is divided into the three sections and although the wireframes do not exactly match my final project, i.e. the name change from "Snowest" to "GO2SNOW" which I found to be a more catchy, more iconic name to the brand are just some of the few changes I made. I added further enhancements by implementing further imagery, removing the carousel feature on the offers and deals page and creating modal contact forms instead of a separate contact-us page.
 
-- Landing Page: [view](assets/docs/wireframes/landing-pg.pdf)
+- Landing Page: <a href="assets/docs/wireframes/landing-pg.pdf" target="_blank" >Home</a>
 
-- Offers & Deals Page: [view](assets/docs/wireframes/offers-pg.pdf)
+- Offers & Deals Page: <a href="assets/docs/wireframes/offers-pg.pdf" target="_blank" >Offers</a>
 
-- Resorts Page: [view](assets/docs/wireframes/resorts-pg.pdf)
+- Resorts Page: <a href="assets/docs/wireframes/resorts-pg.pdf" target="_blank" >Resorts</a>
 
-- Contact Page: [view](assets/docs/wireframes/contact-pg.pdf)
+- Contact Page: <a href="assets/docs/wireframes/contact-pg.pdf" target="_blank" >Contact</a>
 
 ---
 
