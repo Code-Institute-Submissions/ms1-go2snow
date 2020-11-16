@@ -217,6 +217,14 @@ body {
   text-align: center;
 }
 
+.contact-btn {
+  margin-right: 0;
+  color: #ffffff;
+  background-color: #ffc107;
+  border: 0;
+}
+
+
 /*Offers Section*/
 
 .deals-area {
@@ -322,9 +330,7 @@ body {
 
 }
 
-.text-muted {
-    color: red;
-}
 
-/* you have two rows- need to fix or change class name for the why us section in order for it to work*/
+
+
 

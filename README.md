@@ -2,6 +2,8 @@
 
 # GO2SNOW - Milestone Project 1 
 
+ ### View the live project [here.](https://elerel.github.io/ms1-go2snow/)
+
 The aim of this project was to create a user-friendly website based on a ski holiday travel company. Having some years in the travel-industry, one thing heard over the years is  that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that, without the fuss and overabundance of options and instead, let the user gather some inspiration with the end result having an exciting ski-holiday booked.
 
 ## Overview
@@ -22,37 +24,37 @@ My travel website is aimed to attract a number of various demographics, the busy
 
 **Business Goals**
 
-> - To gain an increase in website user activity, online enquiries and direct contact with the company
+> To gain an increase in website user activity, online enquiries and direct contact with the company
 
-> - To provide a professional, clear and easy to navigate website for any type of traveler, be it
+> To provide a professional, clear and easy to navigate website for any type of traveler, be it
 first time user as well
 
-> - Improve website SEO and appear as one of the first options for ski holiday specialists in Ireland/UK in your browser search
+> Establish an online presence with the end result as appearing as one of the first options for ski holiday specialists in Ireland/UK in your browser search
 
 **User Stories**
 
 #### As a First Time User:
 
-> _“Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
+> “Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
 
-> _“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+> “As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
 
-> _“As a first-time user and want to be able to navigate easily throughout the website with access to
+> “As a first-time user and want to be able to navigate easily throughout the website with access to
 the information I need”
 
-> _“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+> “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
 
-> _"I would like to find packages available with a company who are bonded and ATOL protected”
+> "I would like to find packages available with a company who are bonded and ATOL protected”
 
 #### As a Regular User: 
 
->  _"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
+>  "Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
 
->  _"To avail of the return client discounts available!"
+>  "To avail of the return client discounts available!"
 
->  _"To book with a comapny I know and trust, ease of booking process and usually deal with the same agent each time"
+>  "To book with a company I know and trust, ease of booking process and usually deal with the same agent each time"
 
->  _“As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+>  “As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
 country/territory/province etc”
 
 ## Scope
@@ -100,7 +102,7 @@ I wanted to stick with the theme of mountain resorts by using colours associated
 -I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
 
 ### Icons
-- Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, the call-to-action, offers cards and social links.
+- Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, list items, the call-to-action, offers cards and social links.
 
 ## Features
 
