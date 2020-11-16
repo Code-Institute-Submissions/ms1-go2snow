@@ -227,6 +227,10 @@ body {
 
 /*Offers Section*/
 
+.deals-area {
+    background-color: #2f4656;
+}
+
 .latest-offers {
     background-image: url("../images/offers.jpg");
     background-size: cover;
@@ -295,6 +299,10 @@ body {
 
 }
 
+.resort-info {
+    background-color: #2f4656;
+}
+
 .row {
     margin-top: 85px;
     margin-right: 15px;
@@ -302,11 +310,13 @@ body {
     margin-bottom: 15px;
 }
 
+
 .row-resorts {
     margin-top: 15px;
 }
 
 .jumbotron {
+    margin-top: 0;
     background-color: rgba(0, 0, 0, 0.25);
 }
 
