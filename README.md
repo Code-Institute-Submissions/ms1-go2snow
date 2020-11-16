@@ -33,52 +33,74 @@ first time user as well
 
 #### As a First Time User:
 
-> -“Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
+> _“Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
 
-> -“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+> _“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
 
-> -“As a first-time user and want to be able to navigate easily throughout the website with access to
+> _“As a first-time user and want to be able to navigate easily throughout the website with access to
 the information I need”
 
-> - “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+> _“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
 
-> - "I would like to find packages available with a company who are bonded and ATOL protected”
+> _"I would like to find packages available with a company who are bonded and ATOL protected”
 
 #### As a Regular User: 
 
-> - _"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
+>  _"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
 
-> - _"To avail of the return client discounts available!"
+>  _"To avail of the return client discounts available!"
 
-> - _"To book with a comapny I know and trust, ease of booking process and usually deal with the same agent each time"
+>  _"To book with a comapny I know and trust, ease of booking process and usually deal with the same agent each time"
 
-> - _“As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+>  _“As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
 country/territory/province etc”
 
 ## Scope
 
-I wanted to create a website that incorporates the essential features that would interest the user and needs of the business:
+I wanted to create a website with an MVP (Minimal VIable Product) process in the overall design of my website which:
 
-> A clear but brief description of the services offered by the company (Home page)
-> Clean UX with clear navigation on where to find the services offered and easy-to-find contact options per page
+>	Creates a clear and practical website without overloading the user and provides information on what the business is about 
+>	Fits in with the level of my abilities
+>	Include relevant and inspiring imagery and holiday package deals
+>	Shows assurance to the user with use of a confident company slogan and use of testimonials
+>	Meets the overall needs of the user and business owner, contact details & forms etc.
 
 
 ## Structure
 
-why you laid out the website the way you did- discuss the reasons why you designed each page
+I decided to separate the website into three sections- the home page, offers and deals page and resorts page. The navbar (fixed) and footer allow the user to easily find ways to get in touch and each page is to show a consistency throughout. Each page is designed to provide practical information, with inspiring images and content enough to enable the user to know what the company provides. 
 
 ## Skeleton
-The wireframes of my project can be viewed here. The wireframes do not exactly match my final project, the most obvious being the name of the project, changed from "Snowest" to "GO2SNOW" which I found to be a more catchy, more iconic name to the brand. I added further enhancements by implementing further imagery, removing the carousel feature on the offers and deals page and creating modal contact forms instead of a separate contact-us page.
+
+The website is divided into the three sections and although the wireframes do not exactly match my final project, i.e. the name change from "Snowest" to "GO2SNOW" which I found to be a more catchy, more iconic name to the brand are just some of the few changes I made. I added further enhancements by implementing further imagery, removing the carousel feature on the offers and deals page and creating modal contact forms instead of a separate contact-us page.
+
+- Landing Page: <a href="assets/docs/wireframes/landing-pg.pdf" target="_blank" >Home</a>
+
+- Offers & Deals Page: <a href="assets/docs/wireframes/offers-pg.pdf" target="_blank" >Offers</a>
+
+- Resorts Page: <a href="assets/docs/wireframes/resorts-pg.pdf" target="_blank" >Resorts</a>
+
+- Contact Page: <a href="assets/docs/wireframes/contact-pg.pdf" target="_blank" >Contact</a>
+
+---
 
 ## Surface
 
+I wanted to stick with the theme of mountain resorts by using colours associated with ski resorts, i.e. the colours of runs (blue-medium, green-easy etc) and using relevant imagery to initiate the user into thinking and imagining their ski-break.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### Images
+- Each of the images were carefully selected to depict the scene and feel of the destinations whilst providing a sense of adventure and excitement.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### Colours
+- I wanted this to play an important role of the surface by using colours associated with outdoor adventure and winter. As the website is a Canada desintation travel website, I introduced another colour into the scheme keeping with the Canadian theme, #c5423b 
+- The main colour throughout is a darker shade of blue, #2f4656, which is used on all pages.
+- I found a useful colour palette to work from with color-hex :(https://www.color-hex.com/color-palette/64068)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Typography
+-I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
+
+### Icons
+- Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, the call-to-action, offers cards and social links.
 
 ## Features
 
@@ -125,6 +147,12 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+- I used Gitpod, a cloud-based IDE to write all code.
+- It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/elerel/ms1-go2snow/)
+- Under "Settings", I scrolled down to Github Pages and selected "Master Branch" under source, to where the page was automated.
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed
+- To access the code, it can be run locally by either selecting "clone" which provides an URL one can use on their local machine or "download" which is where one can download the zip file on to their machine.
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -141,11 +169,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from Pexels, Pixabay and Unsplash
+- The photos used in this site were obtained from Pexels, Pixabay and Unsplash.
 
 ### Acknowledgements
 
-- I received inspiration for this project from Canadian Sky, Flexiski and Crystal Ski Holidays
+- I received inspiration for this project from my many years in the travel industry, Canadian Sky, Flexiski and Crystal Ski Holidays
 - My Mentor, Nishant Kumar, for his guidance throughout this project
 - Special thanks to Clare Carroll and Louise Cranley for their tips and support building this project (UX design and content)
 - Haley in Tutor Support, Jim Morel and the Slack Community for their endless support, anytime of the day or night.
