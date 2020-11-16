@@ -96,7 +96,7 @@ I wanted to stick with the theme of mountain resorts by using colours associated
 ### Colours
 - I wanted this to play an important role of the surface by using colours associated with outdoor adventure and winter. As the website is a Canada desintation travel website, I introduced another colour into the scheme keeping with the Canadian theme, #c5423b 
 - The main colour throughout is a darker shade of blue, #2f4656, which is used on all pages.
-- I found a useful colour palette to work from with color-hex :(https://www.color-hex.com/color-palette/64068)
+- I found a useful colour palette to work from with [Color-hex](https://www.color-hex.com/color-palette/64068)
 
 ### Typography
 -I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
@@ -104,9 +104,31 @@ I wanted to stick with the theme of mountain resorts by using colours associated
 ### Icons
 - Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, list items, the call-to-action, offers cards and social links.
 
+---
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+#### Navbar
+- By creating a fixed-top navbar, I wanted the user to be able to easily navigate through the website whichever page they are on.
+- On a mobile or tablet, the navbar is then collapsed to show the toggler or hamburger icon which expands when clicked to display the other pages.
+- The user can click on the logo or navbar brand to take the user back to the home-page.
+
+#### Home
+- Contains an animated hero-image of a snowboard mid-air and encourages the user to imagine themselves in that Setting.
+- Upon entering the site, the user is drawn to a text box over the hero image presenting the company's slogan and opportunity to view the current offers.
+- Includes the company's background and ethos, contact information and an alert bar to invite the user to sign up to the company's e-deals/newsletter.
+
+#### Offers & Deals
+- Contains 6 cards of the company's latest ski package deals, each with enquire buttons.
+- Further below the cards are a couple of testimonials by past clients aimed to reinforce trust in the company and create a positive look.
+
+
+#### Resorts 
+- This page consists of three areas with key information on each of the top-selling resorts the company sells 
+
+#### Footer
+- The footer provides a small chunk about who the company is and where they are based, with relevant useful links and contact details available on each page.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
