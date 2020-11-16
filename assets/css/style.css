@@ -182,17 +182,8 @@ body {
 .why-us-section {
   color: #1b815a;
   text-align: center;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding: 3rem 1.5rem;
  
-}
-
-.why-us {
-  top: 5px;
-  padding-top: 40px;
-  padding-left: 60px;
-  color: #1b815a;
-  text-align: center;
 }
 
 .your-way {
@@ -209,6 +200,7 @@ body {
     width: 50%;
     border: 1px solid #ffc107;
 }
+
 
 /* Footer Styling */
 
@@ -330,6 +322,9 @@ body {
 
 }
 
+.text-muted {
+    color: red;
+}
 
-
+/* you have two rows- need to fix or change class name for the why us section in order for it to work*/
 
