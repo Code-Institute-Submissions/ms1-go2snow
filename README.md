@@ -68,16 +68,19 @@ I wanted to create a website with an MVP (Minimal VIable Product) process in the
 
 ## Structure
 
-I decided to design the website into three sections- the home page, offers and deals page and resorts page. The navbar (fixed) and footer allow the user to easily find ways to get in touch and each page is to show a consistency throughout. Each page is designed to provide practical information, with inspiring images and content enough to enable the user to know what the company provides. 
+I decided to separate the website into three sections- the home page, offers and deals page and resorts page. The navbar (fixed) and footer allow the user to easily find ways to get in touch and each page is to show a consistency throughout. Each page is designed to provide practical information, with inspiring images and content enough to enable the user to know what the company provides. 
 
 ## Skeleton
 
 The website is divided into the three sections and although the wireframes do not exactly match my final project, i.e. the name change from "Snowest" to "GO2SNOW" which I found to be a more catchy, more iconic name to the brand are just some of the few changes I made. I added further enhancements by implementing further imagery, removing the carousel feature on the offers and deals page and creating modal contact forms instead of a separate contact-us page.
 
-> Landing Page: [view](assets/docs/wireframes/landing-pg.pdf)
-> Offers & Deals Page: [view](assets/docs/wireframes/offers-pg.pdf)
-> Resorts Page: [view](assets/docs/wireframes/resorts-pg.pdf)
-> Contact Page: [view](assets/docs/wireframes/contact-pg.pdf)
+- Landing Page: [view](assets/docs/wireframes/landing-pg.pdf)
+
+- Offers & Deals Page: [view](assets/docs/wireframes/offers-pg.pdf)
+
+- Resorts Page: [view](assets/docs/wireframes/resorts-pg.pdf)
+
+- Contact Page: [view](assets/docs/wireframes/contact-pg.pdf)
 
 ---
 
@@ -86,18 +89,18 @@ The website is divided into the three sections and although the wireframes do no
 I wanted to stick with the theme of mountain resorts by using colours associated with ski resorts, i.e. the colours of runs (blue-medium, green-easy etc) and using relevant imagery to initiate the user into thinking and imagining their ski-break.
 
 ### Images
->Each of the images were carefully selected to depict the scene and feel of the destinations whilst providing a sense of adventure and excitement.
+- Each of the images were carefully selected to depict the scene and feel of the destinations whilst providing a sense of adventure and excitement.
 
 ### Colours
->I wanted this to play an important role of the surface by using colours associated with outdoor adventure and winter. As the website is a Canada desintation travel website, I introduced another colour into the scheme keeping with the Canadian theme, #c5423b 
-The main colour throughout is a darker shade of blue, #2f4656, which is used on all pages.
-I found a useful colour palette to work from with color-hex :(https://www.color-hex.com/color-palette/64068)
+- I wanted this to play an important role of the surface by using colours associated with outdoor adventure and winter. As the website is a Canada desintation travel website, I introduced another colour into the scheme keeping with the Canadian theme, #c5423b 
+- The main colour throughout is a darker shade of blue, #2f4656, which is used on all pages.
+- I found a useful colour palette to work from with color-hex :(https://www.color-hex.com/color-palette/64068)
 
 ### Typography
->I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
+-I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
 
 ### Icons
->Font Awesome was the go-to here and they were used across all pages such as the navbar-brand, the call-to-action, offers cards and social links.
+- Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, the call-to-action, offers cards and social links.
 
 ## Features
 
@@ -144,6 +147,12 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
+- I used Gitpod, a cloud-based IDE to write all code.
+- It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/elerel/ms1-go2snow/)
+- Under "Settings", I scrolled down to Github Pages and selected "Master Branch" under source, to where the page was automated.
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed
+- To access the code, it can be run locally by either selecting "clone" which provides an URL one can use on their local machine or "download" which is where one can download the zip file on to their machine.
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -160,11 +169,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from Pexels, Pixabay and Unsplash
+- The photos used in this site were obtained from Pexels, Pixabay and Unsplash.
 
 ### Acknowledgements
 
-- I received inspiration for this project from Canadian Sky, Flexiski and Crystal Ski Holidays
+- I received inspiration for this project from my many years in the travel industry, Canadian Sky, Flexiski and Crystal Ski Holidays
 - My Mentor, Nishant Kumar, for his guidance throughout this project
 - Special thanks to Clare Carroll and Louise Cranley for their tips and support building this project (UX design and content)
 - Haley in Tutor Support, Jim Morel and the Slack Community for their endless support, anytime of the day or night.
