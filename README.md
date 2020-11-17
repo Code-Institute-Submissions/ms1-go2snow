@@ -48,14 +48,13 @@ the information I need”
 
 #### As a Regular User: 
 
->  "Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return"
+> "Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return." 
 
->  "To avail of the return client discounts available!"
+> "To avail of the return client discounts available!" 
 
->  "To book with a company I know and trust, ease of booking process and usually deal with the same agent each time"
+> “As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+country/territory/province etc.” 
 
->  “As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
-country/territory/province etc”
 
 ## Scope
 
@@ -154,34 +153,78 @@ As travel websites tend to pack in a lot of information and options available to
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 
 #### Libraries:
-- [Bootstrap4.5](https://getbootstrap.com/)
-- [GoogleFonts](https://fonts.google.com/)
-- [FontAwesome](https://fontawesome.com/)
-- [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE)
+- [Bootstrap4.5](https://getbootstrap.com/) - 
+- [GoogleFonts](https://fonts.google.com/) - Montserrat and Sans-Serif fonts
+- [FontAwesome](https://fontawesome.com/) - Used frequently for icons used throughout the website
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE) - used for the creation of wireframes
 
 #### Version Control:
-- [Github](https://github.com/)
-- [Gitpod](https://gitpod.io/)
-
+- [Github](https://github.com/) - Used to store the code and using Github Pages to deploy the website. 
+- [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub
 #### Other:
-- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools)
-- [W3Schools](https://www.w3schools.com/)
-- [StackOverFlow](https://stackoverflow.com/)
-- [AmIResponsive](http://ami.responsivedesign.is/)
-- [BrowserStack](https://www.browserstack.com/)
-
+- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
+- [W3Schools](https://www.w3schools.com/) - used as a general resource for CSS and coding tips.
+- [StackOverFlow](https://stackoverflow.com/) - used as a general resource for layout tips or questions.
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this README. 
+- [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
 
 ---
 
 ## Testing
 
-#### Validation
-Here copy in results from W3 Validators
+- Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. 
 
-#### Dev tools
+#### Validation
+
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
+
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605647806/resorts_pg_error_w3_validator_i742dj.png)
+- A possible semantic error, I simply misplaced the body tag below the navbar. Instead, I moved the body tag to below the head section.
+
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605647864/resorts_pg_error2_w3_k4kddn.png)
+- An additional closing p tag and subsequently removed to resolve.
+
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605648411/resorts_pg_w3_validated_rdi2up.png)
+No further issues.
+
+
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605647581/CSS_validation_pxcoct.png)
+
+
+#### Encountered Bugs and Solutions
+
+1. Corrected the navbar toggler, as it was shifting to the right of the navbar once clicked. To over-come this, I did a search and found the helpful as ever Stackover flow page: https://stackoverflow.com/questions/50046119/bootstrap-navbar-toggle-button-moving-left-when-clicked that offered a solution- to add a margin: 0 auto to the navbar-toggler class and that set the button in place.
+2. The position of the Navbar toggler once on a small device (or screen size: max-width 580px), seemed to be centred a bit more on the navabr than I had liked- to overcome this, I added "mr-2" and this moved the toggler/hamburger icon more over to the right of the navbar.
+3. The "Close" button in enquiry and sign up forms- once "close" is clicked, it prompt the "required" field in the forms which would annoy a user. To over come this, I found through stackoverflow (https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit) to add in the data dismiss attribute which will close the modal.
+4. The image resolution on the Resorts PAge needed fixing as they appeared to have a compressed and untidy look- to fix this, I added object-fit:cover to the class and these seemed resolve the image appearance.
+5. On the resorts page again, when the viewport has a reduced width to below 378px, the card heading was overflowing thus causing layout issues. 
+
 
 #### Testing User Stories
 
+1. New User Stories:
+
+“Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
+*As the user enters the site, the caption or company slogan “Travel with peace of mind…” is placed to reassure the user and ensure they are company a user can trust. “Flexible options” is also mentioned to show that the company is sensitive to the users’ needs and are complicit with Covid-19 travel regulations.*
+
+“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all” *Go2Snow is a package holiday travel company who is able to book all components of the user’s holiday which would include flights, accommodation, transfers plus lift passes and rental packages.*
+
+“As a first-time user and want to be able to navigate easily throughout the website with access to the information I need” *A clear and fixed navbar on each of the pages allows the user to easily navigate to other pages in the website. There are also links to useful information that would be relevant to the users’ needs.*
+
+“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available” *There is a contact form available on every page in the website, including multiple enquiry buttons on each of the offers (offers page) and featured once again on the footer of each page.*
+
+"I would like to find packages available with a company who are bonded and ATOL protected” *Especially in these uncertain times, users need to know they are booking with a company they can trust and are stable in today’s current climate. The promise to the user is featured in the text-box in the hero image upon entering the site.*
+
+2. Regular User Stories:
+
+"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return." *By creating a page solely for latest travel deals and offers, the regular user would know where to go to find these, as well as creating a link over the hero image. The offers and deals page also provides recent testimonials and a further enhancement to the page would be to include Feefo or TrustPilot reviews to the page.*
+
+"To avail of the return client discounts available!" *The client can sign up by submitting their contact details to the company’s latest e-blast for exclusive offers.*
+
+“As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+country/territory/province etc” *The website is intended to show current offers and deals and is updated on a regular basis and in addition the user can be notified by any product change or update by submitting their details on the sign up form.*
 
 
 
@@ -191,11 +234,6 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -214,7 +252,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section "Why Choose Us" was copied from the website, [Flexiski](https://www.flexiski.com/) and edited to fit with the company's own product.
 
 ### Media
 - The photos used in this site were obtained from Pexels, Pixabay and Unsplash.
