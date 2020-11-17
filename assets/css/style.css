@@ -43,11 +43,12 @@ body {
   margin-bottom: 10px;
 }
 
-.mybtn {
+
+.contact-btn {
   color: #ffffff;
   background-color: #ffc107;
   border: 0;
-  margin-right: 60px;
+  border-radius: 5px;
 }
 
 .phone-number {
@@ -177,6 +178,15 @@ body {
     }
 }
 
+@media screen and (max-width:400px) {
+    .featurette-heading, .lead, p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
+
 /*Why Us section*/
 
 .why-us-section {
@@ -217,7 +227,7 @@ body {
   text-align: center;
 }
 
-.contact-btn {
+.ftr-contact-btn {
   margin-right: 0;
   color: #ffffff;
   background-color: #ffc107;
@@ -318,6 +328,10 @@ body {
 .jumbotron {
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+.featurette-image {
+    object-fit: cover;
 }
 
 .brand-leaf {

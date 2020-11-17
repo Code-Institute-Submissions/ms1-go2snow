@@ -96,10 +96,10 @@ I wanted to stick with the theme of mountain resorts by using colours associated
 ### Colours
 - I wanted this to play an important role of the surface by using colours associated with outdoor adventure and winter. As the website is a Canada desintation travel website, I introduced another colour into the scheme keeping with the Canadian theme, #c5423b 
 - The main colour throughout is a darker shade of blue, #2f4656, which is used on all pages.
-- I found a useful colour palette to work from with [Color-hex](https://www.color-hex.com/color-palette/64068)
+- I found a useful colour palette to work from with [Color-Hex](https://www.color-hex.com/color-palette/64068)
 
 ### Typography
--I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
+- I used Google Fonts to explore different fonts I could use with my website and decided on "Montserrat" and "Sans-Serif" as the back-up font. Montserrat was my choice because of its popular use and modern look and feel.
 
 ### Icons
 - Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, list items, the call-to-action, offers cards and social links.
