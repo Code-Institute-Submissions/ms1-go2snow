@@ -15,14 +15,13 @@
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
 	<!--Favicon-->
 	<link rel="icon" type="img/png" href="assets/images/favicon.png" />
-
 	<!-- LINK TO CSS -->
 	<link rel="stylesheet" href="assets/css/style.css" />
 
 	<title>go2snow | your ski holiday specialists</title>
 </head>
 
-<!--Navbar-->
+<!--Navbar-Code from Bootstrap4.5 https://getbootstrap.com/docs/4.0/components/navbar/-->
 <body>
 	<nav id="nav-header" class="navbar fixed-top navbar-expand-lg navbar-dark">
 		<a class="navbar-brand"
@@ -54,7 +53,7 @@
 				</li>
 			</ul>
 		</div>
-		<!--Enquire button and modal form here- copied from mdbootstrap-->
+		<!--Enquire button and modal form here- copied and edited from MDBootstrap-->
        <div class="contact-btn"> 
 		<div class="d-none d-sm-block">
 			<button
@@ -62,13 +61,14 @@
           class="btn btn-light btn-lg my-2 my-sm-0 contact-btn "
           data-toggle="modal"
           data-target="#contactmodal"
+          aria-label="contact"
         >CONTACT US!
         </button>
 		</div>
        </div>
 	</nav>
     
- <!--Alert Section--> 
+ <!--Alert Section-inspired to use from CI Whiskey Drop class--> 
 <div class="alert alert-primary d-none d-md-block" role="alert">
   Pssst! We have our END OF YEAR SALE on.
    <a href="#" class="alert-link" data-toggle="modal"
@@ -125,7 +125,7 @@
 			</div>
 		<hr class="short-bar" />
 	</section>
-	<!-- Footer -->
+	<!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
 	<footer class="page-footer font-small stylish-color-dark pt-4">
 		<div class="container text-center text-md-left">
 			<div class="row">
@@ -257,7 +257,7 @@
 		</ul>
 		<!-- Social buttons -->
 
-		<!-- Copyright -->
+		<!-- Copyright from MDBootstrap-->
 		<div class="footer-copyright text-center py-3">
 			© 2020 Copyright: ELEREL
 			
@@ -395,9 +395,7 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 	</script>

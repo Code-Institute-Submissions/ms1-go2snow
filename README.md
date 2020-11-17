@@ -61,11 +61,11 @@ country/territory/province etc”
 
 I wanted to create a website with an MVP (Minimal VIable Product) process in the overall design of my website which:
 
->	Creates a clear and practical website without overloading the user and provides information on what the business is about 
->	Fits in with the level of my abilities
->	Include relevant and inspiring imagery and holiday package deals
->	Shows assurance to the user with use of a confident company slogan and use of testimonials
->	Meets the overall needs of the user and business owner, contact details & forms etc.
+> - Creates a clear and practical website without overloading the user and provides information on what the business is about 
+> -	Fits in with the level of my abilities
+> -	Include relevant and inspiring imagery and holiday package deals
+> -	Shows assurance to the user with use of a confident company slogan and use of testimonials
+> -	Meets the overall needs of the user and business owner, contact details & forms etc.
 
 
 ## Structure
@@ -123,7 +123,6 @@ In this section, you should go over the different parts of your project, and des
 - Contains 6 cards of the company's latest ski package deals, each with enquire buttons.
 - Further below the cards are a couple of testimonials by past clients aimed to reinforce trust in the company and create a positive look.
 
-
 #### Resorts 
 - This page consists of three areas with key information on each of the top-selling resorts the company sells 
 
@@ -131,25 +130,59 @@ In this section, you should go over the different parts of your project, and des
 - The footer provides a small chunk about who the company is and where they are based, with relevant useful links and contact details available on each page.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+As travel websites tend to pack in a lot of information and options available to the user, my website was designed to go with a more practical approach and avoid the info-overloading. I designed it so that it was clear and consistent across all pages and is accessible on all devices.
+- Home page: Fixed navbar allowing the user to easily navigate through the site. I created a second "Contact Us" button on the footer so that on mobile views, the user could submit an enquiry.
+- Offers and Deals: Instead of using a carousel, for the offers and deals page I used a card-deck (Bootstrap) instead as it was visually more appealing and better formatted on all devices. Each offer includes an enquiry button.
+- Contact/Sign Up Forms: each of these forms are included on all pages and allow the user to submit their holiday enquiry or sign up to the company's newsletter/e-deals. To submit, the user must fill out their details or they can close the box.
+- Footer: Spacious footer with handy travel-related links, use of back-to-top button to further enhance UX, social media links and contact details 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Functionality of forms submitted, beyond the scope of the modules so far but will learn this in future modules.
+- More product: I would have enjoyed to expand the destination list as there plentisome but kept it to a single desintation (Canada) for now.
+- Call back request button: a feature where a user can leave their phone number and a brief enquiry box so that the agent can contact the client.
+- Booking engine: beyond the scope of this project but this would be something I would be very interested in pursuing in future projects.
+
+---
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+#### Languages:
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+#### Libraries:
+- [Bootstrap4.5](https://getbootstrap.com/)
+- [GoogleFonts](https://fonts.google.com/)
+- [FontAwesome](https://fontawesome.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE)
 
+#### Version Control:
+- [Github](https://github.com/)
+- [Gitpod](https://gitpod.io/)
+
+#### Other:
+- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools)
+- [W3Schools](https://www.w3schools.com/)
+- [StackOverFlow](https://stackoverflow.com/)
+- [AmIResponsive](http://ami.responsivedesign.is/)
+- [BrowserStack](https://www.browserstack.com/)
+
+
+---
 
 ## Testing
+
+#### Validation
+Here copy in results from W3 Validators
+
+#### Dev tools
+
+#### Testing User Stories
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -171,21 +204,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-- I used Gitpod, a cloud-based IDE to write all code.
+- I used Git, a cloud-based version control software or IDE to write all code.
 - It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/elerel/ms1-go2snow/)
 - Under "Settings", I scrolled down to Github Pages and selected "Master Branch" under source, to where the page was automated.
 - Once this was selected, the project was pushed to Github pages and the URL is then displayed
 - To access the code, it can be run locally by either selecting "clone" which provides an URL one can use on their local machine or "download" which is where one can download the zip file on to their machine.
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
 
 ## Credits
 
