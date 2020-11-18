@@ -185,7 +185,11 @@ body {
     }
 }
 
-
+@media screen and (max-width:1161px) {
+    .alert {
+        font-size: 12px;
+    }
+}
 
 /*Why Us section*/
 
