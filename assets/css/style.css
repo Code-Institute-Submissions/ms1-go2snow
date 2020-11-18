@@ -247,19 +247,20 @@ body {
 }
 
 .latest-offers {
-    background-image: url("../images/offers.jpg");
+    background-image: url("../images/offerspg1.jpg");
     background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	height: 320px;
+    object-fit: cover;
+    height: 360px;
 	overflow: hidden;
-    padding-top: 120px;
+    padding-top: 160px;
     padding-bottom: 50px;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
-
 }
+
 .card-title {
     text-align: center;
     font-weight: bold;
@@ -304,8 +305,9 @@ body {
     background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	height: 320px;
+	height: 360px;
 	overflow: hidden;
+    margin-top: 60px;
     padding-top: 150px;
     padding-bottom: 20px;
     color: #ffffff;
