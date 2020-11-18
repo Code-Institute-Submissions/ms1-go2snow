@@ -71,14 +71,14 @@ country/territory/province etc.”
 
 ## Scope
 
-I wanted to create a website with an MVP (Minimal VIable Product) process in the overall design of my website which:
+This website incorporates an MVP (Minimal VIable Product) method which I considered a good idea for the following reasons:
 
 > - Creates a clear and practical website without overloading the user and provides information on what the business is about 
 > -	Fits in with the level of my abilities
+> - To enhance UX further
 > -	Include relevant and inspiring imagery and holiday package deals
 > -	Shows assurance to the user with use of a confident company slogan and use of testimonials
 > -	Meets the overall needs of the user and business owner, contact details & forms etc.
-
 
 ## Structure
 
@@ -100,7 +100,7 @@ The website is divided into the three sections and although the wireframes do no
 
 ## Surface
 
-I wanted to stick with the theme of mountain resorts by using colours associated with ski resorts, i.e. the colours of runs (blue-medium, green-easy etc) and using relevant imagery to initiate the user into thinking and imagining their ski-break.
+I wanted to keep with the theme of mountain resorts by using colours associated with ski resorts, i.e. the colours of runs (blue-medium, green-easy etc) and using relevant imagery to initiate the user into thinking and imagining their ski-break.
 
 ### Images
 - Each of the images were carefully selected to depict the scene and feel of the destinations whilst providing a sense of adventure and excitement.
@@ -172,7 +172,8 @@ As travel websites tend to pack in a lot of information and options available to
 
 #### Version Control:
 - [Github](https://github.com/) - Used to store the code and using Github Pages to deploy the website. 
-- [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub
+- [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
+
 #### Other:
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
@@ -188,15 +189,28 @@ As travel websites tend to pack in a lot of information and options available to
 
 - Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the send button on the Contact and Sign Up modal without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
 - Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. To better enhance UX, I made sure each link has either a colour change or underline when hovered (with exception of the navbar brand or logo) and included a target attribute so that a new browser window is opened. 
-- Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers.
-
+- Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
+        - Android mobile - 
+        - **Huawei:** P10, P20 Lite, P30 and P30 Lite. 
+        - **OnePlus:** 8 and 6T. 
+        - **Samsung:** Galaxy A20, A50 and Galaxy S20, S9 and Galaxy Note 10.
+        - Android tablet - 
+        - **Samsung:** Galaxy Tab 4 10.1, Galaxy Tab S4 
+        - **Huawei:** Media Pad T3 10
+        - IOS mobile - 
+        - **iPhone:** 6, 8, 11Pro and XS.
+         - IOS tablet - 
+        - **iPad:** Ipad Pro 11 2020
 - Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
-- 1. Home:
+- 1. **Home:**
  ![Image](https://res.cloudinary.com/elerel/image/upload/v1605736242/googlemobile_qkpqsa.jpg)
-- 2. Offers & Deals:
+- 2. **Offers & Deals:**
  ![Image](https://res.cloudinary.com/elerel/image/upload/v1605736797/offersgoogle_pqwmoj.jpg)
-- 3. Resorts: ![Image](https://res.cloudinary.com/elerel/image/upload/v1605736928/googelresorts_hcj1q0.jpg)
+- 3. **Resorts:** 
+ ![Image](https://res.cloudinary.com/elerel/image/upload/v1605736928/googelresorts_hcj1q0.jpg)
 
+- Testing was also performed on Safari, Chrome, Firefox and UC Browser.
+- Advised by my friends and family, including the Peer Review Slack Channel for feedback to which proved positive responses.
 
 #### Validation
 
@@ -222,15 +236,24 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 1. Corrected the navbar toggler, as it was shifting to the right of the navbar once clicked. To over-come this, I did a search and found the helpful as ever Stackover flow page: https://stackoverflow.com/questions/50046119/bootstrap-navbar-toggle-button-moving-left-when-clicked that offered a solution- to add a margin: 0 auto to the navbar-toggler class and that set the button in place.
 2. The position of the Navbar toggler once on a small device (or screen size: max-width 580px), seemed to be centred a bit more on the navabr than I had liked- to overcome this, I added "mr-2" and this moved the toggler/hamburger icon more over to the right of the navbar.
 3. The "Close" button in enquiry and sign up forms- once "close" is clicked, it prompt the "required" field in the forms which would annoy a user. To over come this, I found through stackoverflow (https://stackoverflow.com/questions/33477930/close-bootstrap-modal-on-form-submit) to add in the data dismiss attribute which will close the modal.
-4. The image resolution on the Resorts PAge needed fixing as they appeared to have a compressed and untidy look- to fix this, I added object-fit:cover to the class and these seemed resolve the image appearance.
-5. On the resorts page again, when the viewport has a reduced width to below 378px, the card heading was overflowing thus causing layout issues. 
+4. The image resolution on the Resorts Page needed fixing as they appeared to have a compressed and untidy look- to fix this, I added object-fit:cover to the class and these seemed resolve the image appearance.
+5. On the resorts page again, when the viewport has a reduced width to below 378px, the featurette heading was overflowing thus causing layout issues:
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605741358/peerfeedback_w38ie7.png)
+ To fix, I added a media query targeting the headline to max-width:400px with a reduced font-size.
 6. Arriving on the Offers and Deals page, the hero image took some time to load which indicated that the size of the image was to large and causing this process delay. The size of the downloaded image was over 3600kb so I switched it for another image instead.
 7. I found that the two background images on both the Resorts and Offers pages with captions were inconsistent in appearance- the caption "Resorts We Love" was appearing higher up on the image than the caption on the offers page. I added "margin-top:60px" which fixed the issue.
-8. On a tablet view, the navbar looked untidy with the contact button and phone number still appearing: ![Image](https://res.cloudinary.com/elerel/image/upload/v1605737463/contactdeets_vg2j6z.jpg)
- I added d-none d-lg-block d-xl-none so that it could only be visible on large devices.
+8. On a tablet view, the navbar looked untidy with the contact button and phone number still appearing: ![Image](https://res.cloudinary.com/elerel/image/upload/v1605737463/contactdeets_vg2j6z.jpg) 
+   I added d-none d-lg-block d-xl-none so that it could only be visible on large devices.
 9. The alert bar was also appearing untidy on tablet view so created a media query so the content could fit in with out overlapping on the page.
 
-#### Outstanding bugs 
+#### Remaining bugs 
+
+1. On one device I checked through BrowserStack, the Ipad Pro 12.9, the height of the navbar increased (which didnt overly bother) but the colour of the contact number had changed from the off-white to a dark blue:
+
+![Image](https://res.cloudinary.com/elerel/image/upload/v1605739824/Ipadpro12.9_eozisl.jpg)
+ I was not certain how to go about fixing this bug, but it does certainly highlight the importance of checking the site across all devices and browsers.
+
+2. Once the viewport size is from 992px to 1133px the navbar expands in height- it didnt obstruct the page in any odd way but would have preferred to keep it as similar looking to the larger viewport size.
 
 #### Testing User Stories
 
@@ -276,8 +299,7 @@ country/territory/province etc” *The website is intended to show current offer
 
 ### Acknowledgements
 
-- I received inspiration for this project from my many years in the travel industry, Canadian Sky, Flexiski and Crystal Ski Holidays
-- My Mentor, Nishant Kumar, for his guidance throughout this project
-- Special thanks to Clare Carroll and Louise Cranley for their tips and support building this project (UX design and content)
-- Haley in Tutor Support, Jim Morel and the Slack Community for their endless support, anytime of the day or night.
+- I received inspiration for this project from my years in the travel industry, Canadian Sky, Flexiski and Crystal Ski Holidays
+- My Mentor, **Nishant Kumar**, for his guidance throughout this project.
+- Tutor Support, Jim Morel and the Slack Community for their endless support, anytime of the day or night.
 - My husband and my family for their support and patience!
