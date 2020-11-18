@@ -254,8 +254,7 @@ body {
     background-image: url("../images/offersnow.jpg");
     background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
-    object-fit: cover;
+    background-position: 50% 50%;
     height: 360px;
 	overflow: hidden;
     padding-top: 160px;
