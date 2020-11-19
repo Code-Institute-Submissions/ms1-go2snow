@@ -266,24 +266,31 @@ Unfortunately, I did not know how to go about fixing these bugs, but it does hig
 1. New User Stories:
 
 “Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
-*As the user enters the site, the caption or company slogan “Travel with peace of mind…” is placed to reassure the user and ensure they are company a user can trust. “Flexible options” is also mentioned to show that the company is sensitive to the users’ needs and are complicit with Covid-19 travel regulations.*
+> *As the user enters the site, the caption or company slogan “Travel with peace of mind…” is placed to reassure the user and ensure they are company a user can trust. “Flexible options” is also mentioned to show that the company is sensitive to the users’ needs and are complicit with Covid-19 travel regulations.*
 
-“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all” *Go2Snow is a package holiday travel company who is able to book all components of the user’s holiday which would include flights, accommodation, transfers plus lift passes and rental packages.*
+“As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all” 
+> *Go2Snow is a package holiday travel company who is able to book all components of the user’s holiday which would include flights, accommodation, transfers plus lift passes and rental packages.*
 
-“As a first-time user and want to be able to navigate easily throughout the website with access to the information I need” *A clear and fixed navbar on each of the pages allows the user to easily navigate to other pages in the website. There are also links to useful information that would be relevant to the users’ needs.*
+“As a first-time user and want to be able to navigate easily throughout the website with access to the information I need” 
+> *A clear and fixed navbar on each of the pages allows the user to easily navigate to other pages in the website. There are also links to useful information that would be relevant to the users’ needs.*
 
-“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available” *There is a contact form available on every page in the website, including multiple enquiry buttons on each of the offers (offers page) and featured once again on the footer of each page.*
+“I want to easily find a contact/enquiry form to submit in relation to certain ski packages available” 
+> *There is a contact form available on every page in the website, including multiple enquiry buttons on each of the offers (offers page) and featured once again on the footer of each page.*
 
-"I would like to find packages available with a company who are bonded and ATOL protected” *Especially in these uncertain times, users need to know they are booking with a company they can trust and are stable in today’s current climate. The promise to the user is featured in the text-box in the hero image upon entering the site.*
+"I would like to find packages available with a company who are bonded and ATOL protected” 
+> *Especially in these uncertain times, users need to know they are booking with a company they can trust and are stable in today’s current climate. The promise to the user is featured in the text-box in the hero image upon entering the site.*
 
 2. Regular User Stories:
 
-"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return." *By creating a page solely for latest travel deals and offers, the regular user would know where to go to find these, as well as creating a link over the hero image. The offers and deals page also provides recent testimonials and a further enhancement to the page would be to include Feefo or TrustPilot reviews to the page.*
+"Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return." 
+> *By creating a page solely for latest travel deals and offers, the regular user would know where to go to find these, as well as creating a link over the hero image. The offers and deals page also provides recent testimonials and a further enhancement to the page would be to include Feefo or TrustPilot reviews to the page.*
 
-"To avail of the return client discounts available!" *The client can sign up by submitting their contact details to the company’s latest e-blast for exclusive offers.*
+"To avail of the return client discounts available!" 
+> *The client can sign up by submitting their contact details to the company’s latest e-blast for exclusive offers.*
 
 “As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
-country/territory/province etc” *The website is intended to show current offers and deals and is updated on a regular basis and in addition the user can be notified by any product change or update by submitting their details on the sign up form.*
+country/territory/province etc” 
+> *The website is intended to show current offers and deals and is updated on a regular basis and in addition the user can be notified by any product change or update by submitting their details on the sign up form.*
 
 
 ## Deployment
