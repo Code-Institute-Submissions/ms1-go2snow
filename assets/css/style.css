@@ -1,373 +1,297 @@
 body {
-  font-family: "Montserrat", sans-serif;
-}
-.navbar-brand {
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: 30px;
-  letter-spacing: 3px;
+     font-family: "Montserrat", sans-serif;
 }
 
-.hero-section h2 {
-  color: antiquewhite;
+ .hero-section h2 {
+     color: antiquewhite;
 }
 
 /*Navbar styling*/
-
-#nav-header {
-    background-color: #2f4656;
+ .navbar-brand {
+     padding-top: 0;
+     padding-bottom: 0;
+     font-size: 30px;
+     letter-spacing: 3px;
 }
-
-.navbar .navbar-toggler {
-    border: 0;
+ #nav-header {
+     background-color: #2f4656;
 }
-
-.navbar-toggler {
-    margin: 0 auto;
+ .navbar .navbar-toggler {
+     border: 0;
 }
-
-.navbar-nav li {
-  margin: 0 25px;
-  padding-top: 25px;
-
+ .navbar-toggler {
+     margin: 0 auto;
 }
-
+ .navbar-nav li {
+     margin: 0 25px;
+     padding-top: 25px;
+}
  .nav-link:hover {
-  text-decoration: underline;
+     text-decoration: underline;
 }
-
-.navbar-text {
-  font-weight: bold;
-  padding-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+ .navbar-text {
+     font-weight: bold;
+     padding-right: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
-
-
-.contact-btn {
-  color: #ffffff;
-  background-color: #ffc107;
-  border: 0;
-  border-radius: 5px;
+ .contact-btn {
+     color: #ffffff;
+     background-color: #ffc107;
+     border: 0;
+     border-radius: 5px;
 }
-
-.phone-number {
-    color: white;
-    font-size: 130%;
-    font-weight: bold;
-    margin-left: 60px;
-    
+ .phone-number {
+     color: white;
+     font-size: 130%;
+     font-weight: bold;
+     margin-left: 60px;
 }
 
 /* Alert Section */
-
-.alert {
-    text-align: center;
-    letter-spacing: 1px;
-    top: 100px;
-    background-color: #c5423b;
-    color: #ffffff;
-    border: 0;
-    border-radius: 0;
-    width: 100%;
-    left: 0;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    padding: 6px;
-    margin: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    height: 30px;
-    z-index: 1;
-    display: flex;  
+ .alert {
+     text-align: center;
+     letter-spacing: 1px;
+     top: 100px;
+     background-color: #c5423b;
+     color: #ffffff;
+     border: 0;
+     border-radius: 0;
+     width: 100%;
+     left: 0;
+     font-weight: bold;
+     font-size: 15px;
+     line-height: 20px;
+     padding: 6px;
+     margin: 0;
+     overflow: hidden;
+     white-space: nowrap;
+     height: 30px;
+     z-index: 1;
+     display: flex;
 }
 
 /* Hero Section - Animations and key frames taken from CI Love Running Project */
 
-.hero-section {
-    height: 100vh;
-    width: 100%;
-    background-image: url("../images/air.jpg");
-    background-size: cover;
-    overflow: hidden;
-	background-repeat: no-repeat;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  .hero-section h2 {
+     color: antiquewhite;
+}
+ .hero-section {
+     height: 100vh;
+     width: 100%;
+     background-image: url("../images/air.jpg");
+     background-size: cover;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     animation-name: hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: forwards;
+}
+ .hero-section h3 {
+     text-transform: uppercase;
+     text-shadow: 1px 1px #ffc107;
+}
+ @keyframes hero-zoom {
+     0% {
+         transform: scale(1);
+    }
+     100% {
+         transform: scale(1.1);
+    }
 }
 
-.hero-section h3 {
-    text-transform: uppercase;
-    text-shadow: 1px 1px #ffc107;
-}
-
-@keyframes hero-zoom {
-0% {
-    transform: scale(1);
-}
-100% {
-    transform: scale(1.1);
-}
-}
 /* Positioning of text box taken from W3 schools-how to place text over image css */
-.cta-button {
-    text-align: center;
-    color: #ffffff;
-    width: 300px;
-    padding: 15px;
-    margin-top: 15px;
-    background-color: rgba(24, 22, 44, 0.7);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+ .cta-button {
+     text-align: center;
+     color: #ffffff;
+     width: 300px;
+     padding: 15px;
+     margin-top: 15px;
+     background-color: rgba(24, 22, 44, 0.7);
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: absolute;
 }
 
 /* Media Queries Section */
-@media screen and (max-width: 468px) {
-    .cta-button {
-        font-size: 75%;
-        top: 65%;
-        width: 230px;
-
+ @media screen and (max-width: 468px) {
+     .cta-button {
+         font-size: 75%;
+         top: 65%;
+         width: 230px;
     }
 }
-
-@media screen and (max-width:468px) {
-	.navbar-nav li {
-        margin-right: 0px;
+ @media screen and (max-width:468px) {
+     .navbar-nav li {
+         margin-right: 0px;
     }
 }
-
-@media screen and (max-width: 1000px) {
-    .alert {
-        top: 60px;
+ @media screen and (max-width: 1000px) {
+     .alert {
+         top: 60px;
     }
 }
-
-@media screen and (max-width:468px) {
-	.hero-section h3 {
-		font-size: 20px;
-	}
-}
-
-@media screen and (max-width: 768px ) {
-    .mybtn {
-        margin-right: 15px;
+ @media screen and (max-width:468px) {
+     .hero-section h3 {
+         font-size: 20px;
     }
 }
-
-@media screen and (max-width:468px) {
-    .navbar-brand {
-        font-size: 20px;
+ @media screen and (max-width: 768px ) {
+     .mybtn {
+         margin-right: 15px;
     }
 }
-
-@media screen and (min-width:992px) {
-    .latest-offers {
-        margin-top: 60px;
-        padding-bottom: 0;
-        padding-top: 120px;
+ @media screen and (max-width:468px) {
+     .navbar-brand {
+         font-size: 20px;
     }
 }
-
-@media screen and (max-width:400px) {
-    .why-us {
-        padding-left: 0;
+ @media screen and (min-width:992px) {
+     .latest-offers {
+         margin-top: 60px;
+         padding-bottom: 0;
+         padding-top: 120px;
     }
 }
-
-@media screen and (max-width:400px) {
+ @media screen and (max-width:400px) {
+     .why-us {
+         padding-left: 0;
+    }
+}
+ @media screen and (max-width:400px) {
      .lead, p {
-        font-size: 1rem;
-        text-align: center;
+         font-size: 1rem;
+         text-align: center;
     }
 }
-
-
-@media screen and (max-width:400px) {
+ @media screen and (max-width:400px) {
      .featurette-heading {
-        font-size: 1.5rem;
-        text-align: center;
+         font-size: 1.5rem;
+         text-align: center;
+    }
+}
+ @media screen and (max-width:1161px) {
+     .alert {
+         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1161px) {
-    .alert {
-        font-size: 12px;
+     .why-us-section {
+         color: #1b815a;
+         text-align: center;
+         padding: 3rem 1.5rem;
     }
-}
+     .your-way {
+         text-align: center;
+         padding-bottom: 15px;
+    }
+     .h1-ylw {
+         color: #ffc107;
+         font-weight: bold;
+    }
+     .short-bar {
+         width: 50%;
+         border: 1px solid #ffc107;
+    }
 
-/*@media screen and (max-width:1100px) {
-    .alert {
-        display: none;
-    }*/
-
-/*Why Us section*/
-
-.why-us-section {
-  color: #1b815a;
-  text-align: center;
-  padding: 3rem 1.5rem;
- 
-}
-
-.your-way {
-  text-align: center;
-  padding-bottom: 15px;
-}
-
-.h1-ylw {
-    color: #ffc107;
-    font-weight: bold;
-}
-
-.short-bar {
-    width: 50%;
-    border: 1px solid #ffc107;
-}
-
-
-/* Footer Styling */
-
-.footer-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-}
-
-.footer-contact {
-  color: black;
-}
-
-.top-button {
-  text-align: center;
-}
-
-.ftr-contact-btn {
-  margin-right: 0;
-  color: #ffffff;
-  background-color: #ffc107;
-  border: 0;
-}
-
-.accreditations {
-    margin: 0 auto;
-    position: center;
-
-}
-
-/*Offers Section*/
-
-.deals-area {
-    background-color: #2f4656;
-}
-
-.latest-offers {
-    background-image: url("../images/offersnow.jpg");
-    background-size: cover;
-	background-repeat: no-repeat;
-    background-position: 50% 50%;
-    height: 360px;
-	overflow: hidden;
-    padding-top: 160px;
-    padding-bottom: 50px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-}
-
-.card-title {
-    text-align: center;
-    font-weight: bold;
-   
-}
-
-.card-deck {
-    padding: 20px 20px; 
-      
-
-}
-
-.card {
-    border: 1px solid #2f4656;
-
-}
-
-/*Review Section*/
-
-.feedback-section {
-    text-align: center;
-}
-
-.feedback-section h5 {
-    font-weight: bold;
-}
-
-/* Pricing */
-
-.pricing-from {
-    height: 20px;
-    width: 100%;
-    background-color: #190d22;
-    text-align: center;
-}
-
-
-/* Resorts Section */
-
-.resorts {
-    background-image: url("../images/whistler1.jpg");
-    background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	height: 360px;
-	overflow: hidden;
-    margin-top: 50px;
-    padding-top: 150px;
-    padding-bottom: 20px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-
-}
-
-.resort-info {
-    background-color: #2f4656;
-}
-
-.row {
-    margin-top: 85px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
-
-.row-resorts {
-    margin-top: 15px;
-}
-
-.jumbotron {
-    margin-top: 0;
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-.featurette-image {
-    object-fit: cover;
-}
-
-.brand-leaf {
-    color: red;
-}
-
-.jumbotron {
-    background-color: #2f4656;
-    color: #ffffff;
-
-}
-
-
-
-
-
+    /* Footer Styling */
+     .footer-content {
+         background-color: rgba(0, 0, 0, 0.5);
+         color: #ffffff;
+    }
+     .footer-contact {
+         color: black;
+    }
+     .top-button {
+         text-align: center;
+    }
+     .ftr-contact-btn {
+         margin-right: 0;
+         color: #ffffff;
+         background-color: #ffc107;
+         border: 0;
+    }
+    
+    /*Offers Section*/
+     .deals-area {
+         background-color: #2f4656;
+    }
+     .latest-offers {
+         background-image: url("../images/offersnow.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: 50% 50%;
+         height: 360px;
+         overflow: hidden;
+         padding-top: 160px;
+         padding-bottom: 50px;
+         color: #ffffff;
+         text-align: center;
+         font-weight: bold;
+    }
+     .card-title {
+         text-align: center;
+         font-weight: bold;
+    }
+     .card-deck {
+         padding: 20px 20px;
+    }
+     .card {
+         border: 1px solid #2f4656;
+    }
+    /*Review Section*/
+     .feedback-section {
+         text-align: center;
+    }
+     .feedback-section h5 {
+         font-weight: bold;
+    }
+    /* Pricing */
+     .pricing-from {
+         height: 20px;
+         width: 100%;
+         background-color: #190d22;
+         text-align: center;
+    }
+    /* Resorts Section */
+     .resorts {
+         background-image: url("../images/whistler1.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: 50% 50%;
+         height: 360px;
+         overflow: hidden;
+         margin-top: 50px;
+         padding-top: 150px;
+         padding-bottom: 20px;
+         color: #ffffff;
+         text-align: center;
+         font-weight: bold;
+    }
+     .resort-info {
+         background-color: #2f4656;
+    }
+     .row {
+         margin-right: 15px;
+         margin-left: 15px;
+         margin-bottom: 15px;
+    }
+     .row-resorts {
+         margin-top: 15px;
+    }
+     .jumbotron {
+         margin-top: 0;
+         background-color: rgba(0, 0, 0, 0.25);
+    }
+     .featurette-image {
+         object-fit: cover;
+    }
+     .brand-leaf {
+         color: red;
+    }
+     .jumbotron {
+         background-color: #2f4656;
+         color: #ffffff;
+    }
+    

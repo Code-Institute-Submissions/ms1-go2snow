@@ -31,7 +31,7 @@ It is a specialist travel company website that is intended to be accessible on a
 ![Image](https://res.cloudinary.com/elerel/image/upload/v1605279942/amiresponsive2_oucrxe.png)
 
 ---
-## UX- Strategy
+## UX - Strategy
 
 This travel website is aimed to attract all demographics with a keen interest in visiting Canada, the busy parent who is looking to book their annual family ski holiday; a tour group or school/university group planning a ski trip, plus a young, adventurous traveller that is looking for a different style of holiday.  
 
@@ -183,6 +183,7 @@ As travel websites tend to pack in a lot of information and options available to
 - [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
 - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 - [Youtube](https://www.youtube.com/) - Used for help in adding a favicon.
+- [CSS Formatter](https://www.cleancss.com/css-beautify/) - Used to beautify CSS code.
 
 ---
 
@@ -191,20 +192,22 @@ As travel websites tend to pack in a lot of information and options available to
 - Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the send button on the Contact and Sign Up modal without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
 - Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. To better enhance UX, I made sure each link has either a colour change or underline when hovered (with exception of the navbar brand or logo) and included a target attribute so that a new browser window is opened. 
 - Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
-        - Android mobile - 
+    - Android mobile:
         - **Huawei:** P10, P20 Lite, P30 and P30 Lite. 
         - **OnePlus:** 8 and 6T. 
         - **Samsung:** Galaxy A20, A50 and Galaxy S20, S9 and Galaxy Note 10.
         
-        - Android tablet - 
+    - Android tablet:
         - **Samsung:**  Galaxy Tab 4 10.1, Galaxy Tab S4 
         - **Huawei:** Media Pad T3 10
         
-        -  IOS mobile - 
+    -  IOS mobile - 
         - **iPhone:** 6, 8, 11Pro and XS.
-         - IOS tablet - 
+    - IOS tablet - 
         - **iPad:** Ipad Pro 11 2020
+
 - Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
+
 - 1. **Home:**
  ![Image](https://res.cloudinary.com/elerel/image/upload/v1605736242/googlemobile_qkpqsa.jpg)
 - 2. **Offers & Deals:**
