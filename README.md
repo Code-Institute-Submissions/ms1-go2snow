@@ -7,17 +7,17 @@
 The aim of this project was to create a user-friendly website based on a ski holiday travel company. Having some years in the travel-industry, one thing heard over the years is  that booking a ski-holiday can be a daunting experience for first timers: I wanted to create a website that avoids that, without the fuss and overabundance of options and instead, let the user gather some inspiration with the end result having an exciting ski-holiday booked.
 
 ## Table of Contents
-> - Overview
-> - Description
-> - UX
-> - User Stories
-> - Features
-> - Technologies Used
-> - Testing
-> - Project bugs and solutions
-> - Deployment
-> - Credits
-> - Acknowledgments
+> - [Overview](#overview)
+> - [Description](#description)
+> - [UX](#ux)
+> - [User Stories](#user-stories)
+> - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Project bugs and solutions](#Project-bugs-and-solutions)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgments](#Acknowledgements)
 
 ## Overview
 
@@ -48,24 +48,24 @@ first time user as well
 
 #### As a First Time User:
 
-> “Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
+- “Due to Covid-19 and the unfortunate experiences had with other travel companies, I want to know my money is safe and I have options booking with a travel agent." 
 
-> “As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
+- “As a busy parent, I want to find inspiration/plan a family ski holiday, a one-stop shop for all”
 
-> “As a first-time user and want to be able to navigate easily throughout the website with access to
+- “As a first-time user and want to be able to navigate easily throughout the website with access to
 the information I need”
 
-> “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
+- “I want to easily find a contact/enquiry form to submit in relation to certain ski packages available”
 
-> "I would like to find packages available with a company who are bonded and ATOL protected”
+- "I would like to find packages available with a company who are bonded and ATOL protected”
 
 #### As a Regular User: 
 
-> "Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return." 
+- "Price and reivews are a big factor for me, so as long as the company is well-established and well-reviewed I will return." 
 
-> "To avail of the return client discounts available!" 
+- "To avail of the return client discounts available!" 
 
-> “As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
+- “As a regular user, I want to see if their product has expanded, i.e. new resorts they cover by
 country/territory/province etc.” 
 
 
@@ -73,12 +73,12 @@ country/territory/province etc.”
 
 This website incorporates an MVP (Minimal VIable Product) method which I considered a good idea for the following reasons:
 
-> - Creates a clear and practical website without overloading the user and provides information on what the business is about 
-> -	Fits in with the level of my abilities
-> - To enhance UX further
-> -	Include relevant and inspiring imagery and holiday package deals
-> -	Shows assurance to the user with use of a confident company slogan and use of testimonials
-> -	Meets the overall needs of the user and business owner, contact details & forms etc.
+- Creates a clear and practical website without overloading the user and provides information on what the business is about 
+- Fits in with the level of my abilities
+- To further enhance UX 
+- Include relevant and inspiring imagery and holiday package deals
+- Shows assurance to the user with use of a confident company slogan and use of testimonials
+- Meets the overall needs of the user and business owner, contact details & forms etc.
 
 ## Structure
 
@@ -165,7 +165,7 @@ As travel websites tend to pack in a lot of information and options available to
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 
 #### Libraries:
-- [Bootstrap4.5](https://getbootstrap.com/) - 
+- [Bootstrap 4.5](https://getbootstrap.com/) - A mobile-first responsive library used to construct various parts of the project, including the Navbar, Modal Forms, Featurettes and Cards.
 - [GoogleFonts](https://fonts.google.com/) - Montserrat and Sans-Serif fonts
 - [FontAwesome](https://fontawesome.com/) - Used frequently for icons used throughout the website
 - [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE) - used for the creation of wireframes
@@ -181,6 +181,7 @@ As travel websites tend to pack in a lot of information and options available to
 - [StackOverFlow](https://stackoverflow.com/) - used as a general resource for layout tips or questions.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this README. 
 - [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
+- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 - [Youtube](https://www.youtube.com/) - Used for help in adding a favicon.
 
 ---
@@ -194,10 +195,12 @@ As travel websites tend to pack in a lot of information and options available to
         - **Huawei:** P10, P20 Lite, P30 and P30 Lite. 
         - **OnePlus:** 8 and 6T. 
         - **Samsung:** Galaxy A20, A50 and Galaxy S20, S9 and Galaxy Note 10.
+        
         - Android tablet - 
-        - **Samsung:** Galaxy Tab 4 10.1, Galaxy Tab S4 
+        - **Samsung:**  Galaxy Tab 4 10.1, Galaxy Tab S4 
         - **Huawei:** Media Pad T3 10
-        - IOS mobile - 
+        
+        -  IOS mobile - 
         - **iPhone:** 6, 8, 11Pro and XS.
          - IOS tablet - 
         - **iPad:** Ipad Pro 11 2020
@@ -251,9 +254,12 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 1. On one device I checked through BrowserStack, the Ipad Pro 12.9, the height of the navbar increased (which didnt overly bother) but the colour of the contact number had changed from the off-white to a dark blue:
 
 ![Image](https://res.cloudinary.com/elerel/image/upload/v1605739824/Ipadpro12.9_eozisl.jpg)
- I was not certain how to go about fixing this bug, but it does certainly highlight the importance of checking the site across all devices and browsers.
+ 
 
 2. Once the viewport size is from 992px to 1133px the navbar expands in height- it didnt obstruct the page in any odd way but would have preferred to keep it as similar looking to the larger viewport size.
+3. On some Android devices, like my own Samsung A50, the colours (font and background colours) do not match and change to a darker background and different coloured fonts: ![Image](https://res.cloudinary.com/elerel/image/upload/v1605778766/colorsandroid_uok23l.jpg)
+
+Unfortunately, I did not know how to go about fixing these bugs, but it does highlight the importance of checking the site across all devices and browsers.
 
 #### Testing User Stories
 
