@@ -300,7 +300,7 @@ country/territory/province etc”
 
 ## Deployment
 - Once a GIthub account was created, I opened a new repository by clicking the green button "new". To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
-- CLick on the green "gitpod" button where one is redirected to to [Gitpod](https://gitpod.io/)
+- Click on the green "gitpod" button where one is redirected to to [Gitpod](https://gitpod.io/)
 - Gitpod, a cloud-based version control software or IDE was used to write all code for this project.
 - It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/elerel/ms1-go2snow/)
 - Under "Settings", I scrolled down to Github Pages and selected "Master Branch" under source, to where the page was automated.
