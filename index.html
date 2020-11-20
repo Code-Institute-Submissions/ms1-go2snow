@@ -1,405 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta name="description" content="Go2Snow - an Irish/UK based ski travel company" />
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-	<!--googlefonts-->
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-	<!--Font Awesome-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
-	<!--Favicon-->
-	<link rel="icon" type="img/png" href="assets/images/favicon.png" />
-	<!-- LINK TO CSS -->
-	<link rel="stylesheet" href="assets/css/style.css" />
 
-	<title>go2snow | your ski holiday specialists</title>
+<head>
+    <!-- Required meta tags -->
+    <meta name="description" content="Go2Snow - an Irish/UK based ski travel company" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <!--googlefonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <!--Favicon-->
+    <link rel="icon" type="img/png" href="assets/images/favicon.png" />
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>go2snow | your ski holiday specialists</title>
 </head>
 
 <!--Navbar-Code from Bootstrap4.5 https://getbootstrap.com/docs/4.0/components/navbar/-->
+
 <body>
-	<nav id="nav-header" class="navbar fixed-top navbar-expand-lg navbar-dark">
-		<a class="navbar-brand"
-			href="index.html"><i class="fab fa-canadian-maple-leaf" style="color: red;"></i>GO2SNOW</a>
-		<button
-        class="navbar-toggler mr-2"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="offers.html">Offers & Deals</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="resorts.html">Resorts</a>
-				</li>
-				<li class="nav-item phone-number d-none d-lg-block my-2">
-					<p><i class="fas fa-phone"></i> Call Us 01 2953909</p>
-				</li>
-			</ul>
-		</div>
-		<!--Enquire button and modal form here- copied and edited from MDBootstrap-->
-       <div class="contact-btn"> 
-		<div class="d-none d-lg-block">
-			<button
-          type="button"
-          class="btn btn-light btn-lg my-2 my-sm-0 contact-btn "
-          data-toggle="modal"
-          data-target="#contactmodal"
-          aria-label="contact"
-        >CONTACT US!
+    <nav id="nav-header" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html"><i class="fab fa-canadian-maple-leaf"
+                style="color: red;"></i>GO2SNOW</a>
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-		</div>
-       </div>
-	</nav>
-    
- <!--Alert Section-inspired to use from CI Whiskey Drop class--> 
-<div class="alert alert-primary d-none d-lg-block d-xl-block" role="alert">
-  Pssst! We have our END OF YEAR SALE on.
-   <a href="#" class="alert-link" data-toggle="modal"
-            data-target="#signUpModal"> Sign Up </a> 
-   to our exclusive e-deals today to avail of our amazing offers, straight to your inbox!!
-</div>
-<!--Alert Section
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="offers.html">Offers & Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resorts.html">Resorts</a>
+                </li>
+                <li class="nav-item phone-number d-none d-lg-block my-2">
+                    <p><i class="fas fa-phone"></i> Call Us 01 2953909</p>
+                </li>
+            </ul>
+        </div>
+        <!--Enquire button and modal form here- copied and edited from MDBootstrap-->
+        <div class="contact-btn">
+            <div class="d-none d-lg-block">
+                <button type="button" class="btn btn-light btn-lg my-2 my-sm-0 contact-btn " data-toggle="modal"
+                    data-target="#contactmodal" aria-label="contact">CONTACT US!
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--Alert Section-inspired to use from CI Whiskey Drop class-->
+    <div class="alert alert-primary d-none d-lg-block d-xl-block" role="alert">
+        Pssst! We have our END OF YEAR SALE on.
+        <a href="#" class="alert-link" data-toggle="modal" data-target="#signUpModal"> Sign Up </a>
+        to our exclusive e-deals today to avail of our amazing offers, straight to your inbox!!
+    </div>
+    <!--Alert Section
 -->
-	<!--Hero image cta section-->
-	<section class="hero-section">
-		<div class="cta-button">
-			<h3>Travel with peace of mind this winter</h3>
-			<p><i class="fas fa-snowflake"></i> Flexible Options with GO2SNOW</p>
-			<p><i class="fas fa-money-bill-wave"></i> Low Deposits</p>
-			<p><i class="fas fa-check"></i> Fully Bonded & Licenced</p>
-			<a href="offers.html" class="btn btn-info offers-btn">2021 Offers- Out Now!</a>
-		</div>
-	</section>
-	<!--Why choose us section-text copied from Flexiski and edited slightly-->
-	<section class="why-us-section">
-				<hr class="short-bar" />
-				<h1>Why Choose GO2SNOW?</h1>
-				<p class="d-none d-md-block">
-					Here at GO2SNOW, we believe in skiing on your terms; wherever you
-					want to fly from, however long you want to go for, we'll get you to
-					the mountains in the quickest, easiest and most convenient way
-					possible. We’ve been selling ski holidays and ski multi-centre
-					breaks for over 10 years and are here to guide you, to inspire you,
-					and to tailor a ski break to your precise needs.
-				</p>
-				<p class="d-none d-md-block">
-					If you don't have time or holiday to go skiing for a whole week or
-					you're looking for a few extra days in the mountains this winter,
-					our hand-picked collection of over 40 hotels, catered ski chalets
-					and self-catering apartments across all major Canadian ski resorts,
-					all of which are available for ski weekends - could be just what
-					you're looking for. Plus, a large number of our resorts have been
-					chosen for their proximity to the airport as we know how important a
-					short transfer is when you've only got a few days on the slopes.
-				</p>
-				<p>
-					We believe in being honest and open in everything we do in order to
-					give you the best experience possible, so if you're not sure about
-					something or can't find exactly what you're looking for, let us
-					know, we know a thing or two about ski holidays.
-				</p>
-                <br>
-				<div class="your-way">
-					<h1>Ski Holidays:<span class="h1-ylw"> Your Way</span></h1>
-					<p><i class="fas fa-snowflake"></i> Short breaks & ski weekends, including midweek departures</p>
-					<p><i class="fas fa-snowflake"></i> Fully flexible catered ski chalet in Whistler, BC</p>
-					<p><i class="fas fa-snowflake"></i> Tailor-made ski holidays to Canada from the UK & Ireland</p>
-				</div>
-			</div>
-	<hr class="short-bar"/>	
-	</section>
-	<!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
-	<footer class="page-footer font-small stylish-color-dark pt-4">
-		<div class="container text-center text-md-left">
-			<div class="row footer-row">
-				<div class="col-md-4 mx-auto">
-					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">
-						GO2SNOW-About Us
-					</h5>
-					<p>
-						For over 10 years based in Dublin and London, GO2SNOW is a Canada ski holiday specialist brand, offering the very best ski packages found across Canada. We are the experts in tailor-made holidays and we can help you book your dream ski holiday with help from our talented travel experts who have a wealth of knowledge.
-					</p>
-				</div>
-				<hr class="clearfix w-100 d-md-none" />
-				<div class="col-md-2 mx-auto">
-					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Resorts</h5>
-					<ul class="list-unstyled">
-						<li>
-							<a href="https://www.whistlerblackcomb.com/" target="_blank">Whistler</a>
-						</li>
-						<li><a href="https://banff.ca/" target="_blank">Banff</a></li>
-						<li><a href="https://www.sunpeaksresort.com/" target="_blank">Sun Peaks</a></li>
-						<li><a href="https://www.banfflakelouise.com/lake-louise" target="_blank">Lake Louise</a></li>
-					</ul>
-				</div>
-				<hr class="clearfix w-100 d-md-none" />
-				<div class="col-md-2 mx-auto">
-					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">
-						Useful Links
-					</h5>
-					<ul class="list-unstyled">
-						<li>
-							<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html"
-								target="_blank">Canada ETA Visa</a>
-						</li>
-						<li>
-							<a href="https://www.aircanada.com/ca/en/aco/home/plan/baggage/special-items.html"
-								target="_blank">Baggage</a>
-						</li>
-						<li>
-							<a href="https://www.telegraph.co.uk/travel/ski/articles/ultimate-ski-holiday-packing-list/"
-								target="_blank">What to pack</a>
-						</li>
-						<li>
-							<a href="https://www.gov.uk/foreign-travel-advice" target="_blank">Travel Advice</a>
-						</li>
-					</ul>
-				</div>
-				<!-- Grid column -->
+    <!--Hero image cta section-->
+    <section class="hero-section">
+        <div class="cta-button">
+            <h3>Travel with peace of mind this winter</h3>
+            <p><i class="fas fa-snowflake"></i> Flexible Options with GO2SNOW</p>
+            <p><i class="fas fa-money-bill-wave"></i> Low Deposits</p>
+            <p><i class="fas fa-check"></i> Fully Bonded & Licenced</p>
+            <a href="offers.html" class="btn btn-info offers-btn">2021 Offers- Out Now!</a>
+        </div>
+    </section>
+    <!--Why choose us section-text copied from Flexiski and edited slightly-->
+    <section class="why-us-section">
+        <hr class="short-bar" />
+        <h1>Why Choose GO2SNOW?</h1>
+        <p class="d-none d-md-block">
+            Here at GO2SNOW, we believe in skiing on your terms; wherever you
+            want to fly from, however long you want to go for, we'll get you to
+            the mountains in the quickest, easiest and most convenient way
+            possible. We’ve been selling ski holidays and ski multi-centre
+            breaks for over 10 years and are here to guide you, to inspire you,
+            and to tailor a ski break to your precise needs.
+        </p>
+        <p class="d-none d-md-block">
+            If you don't have time or holiday to go skiing for a whole week or
+            you're looking for a few extra days in the mountains this winter,
+            our hand-picked collection of over 40 hotels, catered ski chalets
+            and self-catering apartments across all major Canadian ski resorts,
+            all of which are available for ski weekends - could be just what
+            you're looking for. Plus, a large number of our resorts have been
+            chosen for their proximity to the airport as we know how important a
+            short transfer is when you've only got a few days on the slopes.
+        </p>
+        <p>
+            We believe in being honest and open in everything we do in order to
+            give you the best experience possible, so if you're not sure about
+            something or can't find exactly what you're looking for, let us
+            know, we know a thing or two about ski holidays.
+        </p>
+        <br>
+        <div class="your-way">
+            <h1>Ski Holidays:<span class="h1-ylw"> Your Way</span></h1>
+            <p><i class="fas fa-snowflake"></i> Short breaks & ski weekends, including midweek departures</p>
+            <p><i class="fas fa-snowflake"></i> Fully flexible catered ski chalet in Whistler, BC</p>
+            <p><i class="fas fa-snowflake"></i> Tailor-made ski holidays to Canada from the UK & Ireland</p>
+        </div>
+        </div>
+        <hr class="short-bar" />
+    </section>
+    <!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
+    <footer class="page-footer font-small stylish-color-dark pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row footer-row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        GO2SNOW-About Us
+                    </h5>
+                    <p>
+                        For over 10 years based in Dublin and London, GO2SNOW is a Canada ski holiday specialist brand,
+                        offering the very best ski packages found across Canada. We are the experts in tailor-made
+                        holidays and we can help you book your dream ski holiday with help from our talented travel
+                        experts who have a wealth of knowledge.
+                    </p>
+                </div>
+                <hr class="clearfix w-100 d-md-none" />
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Resorts</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.whistlerblackcomb.com/" target="_blank">Whistler</a>
+                        </li>
+                        <li><a href="https://banff.ca/" target="_blank">Banff</a></li>
+                        <li><a href="https://www.sunpeaksresort.com/" target="_blank">Sun Peaks</a></li>
+                        <li><a href="https://www.banfflakelouise.com/lake-louise" target="_blank">Lake Louise</a></li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none" />
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        Useful Links
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html"
+                                target="_blank">Canada ETA Visa</a>
+                        </li>
+                        <li>
+                            <a href="https://www.aircanada.com/ca/en/aco/home/plan/baggage/special-items.html"
+                                target="_blank">Baggage</a>
+                        </li>
+                        <li>
+                            <a href="https://www.telegraph.co.uk/travel/ski/articles/ultimate-ski-holiday-packing-list/"
+                                target="_blank">What to pack</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gov.uk/foreign-travel-advice" target="_blank">Travel Advice</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
 
-				<hr class="clearfix w-100 d-md-none" />
+                <hr class="clearfix w-100 d-md-none" />
 
-				<!-- Grid column -->
-                
-				<div class="col-md-2 mx-auto">
-					<!-- Links -->
-					<h5 class="font-weight-bold text-uppercase mt-3 mb-4"><button
-          type="button"
-          class="btn btn-light btn-md my-2 my-sm-0 ftr-contact-btn "
-          data-toggle="modal"
-          data-target="#contactmodal"
-        >CONTACT US!
-        </button>
-					</h5>
-	
-					<ul class="footer-contact list-unstyled">
-						<li>
-							Tel: 01 2953909
-						</li>
-						<li>
-							Email: info@go2snow.com
-						</li>
-						<li>
-							Opening Hours: Mon-Sat 9am-6pm
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	<!--Back to top button-->
-		<div class="col top-button text-center">
-			<a href="#top"><i class="fas fa-arrow-circle-up"></i><br />Back to Top</a>
-		</div>
+                <!-- Grid column -->
 
-		<hr />
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><button type="button"
+                            class="btn btn-light btn-md my-2 my-sm-0 ftr-contact-btn " data-toggle="modal"
+                            data-target="#contactmodal">CONTACT US!
+                        </button>
+                    </h5>
 
-		<!-- Call to action subscribe button here -->
-		<ul class="list-unstyled list-inline text-center py-2">
-			<li class="list-inline-item">
-				<h5 class="mb-1">Subscribe today!</h5>
-			</li>
-			<li class="list-inline-item">
-				<button
-            class="btn btn-primary btn-rounded"
-            data-toggle="modal"
-            data-target="#signUpModal"
-          >
-            Sign up!
-          </button>
-			</li>
-		</ul>
+                    <ul class="footer-contact list-unstyled">
+                        <li>
+                            Tel: 01 2953909
+                        </li>
+                        <li>
+                            Email: info@go2snow.com
+                        </li>
+                        <li>
+                            Opening Hours: Mon-Sat 9am-6pm
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Back to top button-->
+        <div class="col top-button text-center">
+            <a href="#top"><i class="fas fa-arrow-circle-up"></i><br />Back to Top</a>
+        </div>
 
-		<hr />
+        <hr />
 
-		<!-- Social buttons/links -->
-		<ul class="list-unstyled list-inline text-center">
-			<li class="list-inline-item">
-				<a href="https://www.facebook.com/" target="_blank" class="btn-floating btn-fb mx-1">
-					<i class="fab fa-facebook-f"> </i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="https://twitter.com/?lang=en" target="_blank" class="btn-floating btn-tw mx-1">
-					<i class="fab fa-twitter"> </i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="https://myaccount.google.com/intro/profile" target="_blank"
-					class="btn-floating btn-gplus mx-1">
-					<i class="fab fa-google-plus-g"> </i>
-				</a>
-			</li>
-			<li class="list-inline-item">
-				<a href="https://ie.linkedin.com/" target="_blank" class="btn-floating btn-li mx-1">
-					<i class="fab fa-linkedin-in"> </i>
-				</a>
-			</li>
-		</ul>
+        <!-- Call to action subscribe button here -->
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1">Subscribe today!</h5>
+            </li>
+            <li class="list-inline-item">
+                <button class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#signUpModal">
+                    Sign up!
+                </button>
+            </li>
+        </ul>
 
-		<!-- Copyright from MDBootstrap-->
-		<div class="footer-copyright text-center py-3">
-			© 2020 Copyright: ELEREL
-			
-		</div>
-	</footer>
+        <hr />
 
-	<!--Modal forms from Bootstrap4.5 and CI Modal Forms class-->
-	<div class="modal" tabindex="-1" role="dialog" id="contactmodal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4 class="modal-title">
-						<i class="far fa-envelope"></i> Send Us Your Enquiry!
-					</h4>
-					<button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleFormControlTextarea1"
-                  ><i class="fas fa-signature"></i> Full Name:</label>
-							<textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="1"
-                  placeholder="Full Name"
-                ></textarea>
-						</div>
-						<div class="form-group">
-							<label for="exampleInputEmail1"
-                  ><i class="fas fa-at"></i> Email address:</label>
-							<input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                  required
-                />
-							<small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small>
-						</div>
-						<div class="form-group">
-							<label for="exampleFormControlTextarea1"
-                  ><i class="fas fa-mobile"></i> Contact Number:</label>
-							<textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea0"
-                  rows="1"
-                  placeholder="Contact Number"
-                ></textarea>
-						</div>
-						<div class="form-group">
-							<label for="exampleFormControlTextarea1"
-                  ><i class="fas fa-snowflake"></i> Enquiry details:</label>
-							<textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea2"
-                  rows="5"
-                  placeholder="Tell us about your ideal ski break! So that we can provide the best quote tailored to your needs, please let us know any additional information, such as: how many people are travelling? Do you have any resorts in mind or an approximate budget? "
-                ></textarea>
-						</div>
-						<button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button type="submit" class="btn btn-primary">
-                <i class="fas fa-envelope"></i> Send
-              </button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+        <!-- Social buttons/links -->
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/" target="_blank" class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-facebook-f"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://twitter.com/?lang=en" target="_blank" class="btn-floating btn-tw mx-1">
+                    <i class="fab fa-twitter"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://myaccount.google.com/intro/profile" target="_blank"
+                    class="btn-floating btn-gplus mx-1">
+                    <i class="fab fa-google-plus-g"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://ie.linkedin.com/" target="_blank" class="btn-floating btn-li mx-1">
+                    <i class="fab fa-linkedin-in"> </i>
+                </a>
+            </li>
+        </ul>
 
-	<!--Subscribe modal-->
-	<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to GO2SNOW!</h5>
-					<button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail2"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                  required
-                />
-							<small id="emailHelp1" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small>
-						</div>
-						<div class="form-group">
-							<label for="password">Password</label>
-							<input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  placeholder="Password"
-                  required
-                />
-              </div>
-							<div class="form-group">
-								<label for="repeatPassword">Repeat Password</label>
-								<input
-                  type="password"
-                  class="form-control"
-                  id="repeatPassword"
-                  placeholder="Repeat Password"
-                  required
-                />
-              </div>
-                                <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="submit" class="btn btn-primary">Submit</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-	</script>
+        <!-- Copyright from MDBootstrap-->
+        <div class="footer-copyright text-center py-3">
+            © 2020 Copyright: ELEREL
+
+        </div>
+    </footer>
+
+    <!--Modal forms from Bootstrap4.5 and CI Modal Forms class-->
+    <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <i class="far fa-envelope"></i> Send Us Your Enquiry!
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><i class="fas fa-signature"></i> Full Name:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                                placeholder="Full Name"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"><i class="fas fa-at"></i> Email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><i class="fas fa-mobile"></i> Contact
+                                Number:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea0" rows="1"
+                                placeholder="Contact Number"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><i class="fas fa-snowflake"></i> Enquiry
+                                details:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
+                                placeholder="Tell us about your ideal ski break! So that we can provide the best quote tailored to your needs, please let us know any additional information, such as: how many people are travelling? Do you have any resorts in mind or an approximate budget? "></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Subscribe modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to GO2SNOW!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password" required />
+                        </div>
+                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
